@@ -4,8 +4,6 @@ An independent Windows launcher for **Minecraft Java Edition**, with a custom **
 
 **NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT.**
 
-[한국어 안내](README.ko.md) · [Privacy notice](PRIVACY.md) · [Authentication / API review notes](docs/AUTHENTICATION.md) · [Build instructions](BUILD.md) · [Test report](TEST-REPORT.md)
-
 Project contact: **[pluswoori@gmail.com](mailto:pluswoori@gmail.com)**
 
 ## Development and review status
@@ -21,18 +19,6 @@ Game installation, launcher UI behavior, local credential encryption availabilit
 DKKF gives Minecraft Java Edition users separate game environments, official game-file installation, compatible loader profiles and local mod management in a dark cyan/purple desktop interface. The optional Fabric core provides configurable FPS, CPS, ping, coordinates, direction, keystrokes, armor, potion, clock and JVM-memory HUD widgets, plus an editor and local profiles.
 
 Microsoft authentication is used to establish the user's Minecraft identity, verify the available Java Edition entitlement response, and obtain a token for launching the user's local game session. It is not used to request email, files, contacts or other Microsoft Graph data.
-
-## Screenshots
-
-### Launcher
-
-![DKKF launcher Home screen](docs/screenshots/home-26.3.png)
-
-### Minecraft 26.3 Fabric HUD installation
-
-![My Mods showing the DKKF 0.2.0 core and Fabric API 0.166.2 for Minecraft 26.3](docs/screenshots/my-mods-26.3.png)
-
-These are actual screenshots of an isolated development-test installation. They do not demonstrate a successful Microsoft login or an authenticated game session.
 
 ## Features and verification boundaries
 
@@ -119,14 +105,8 @@ The 26.3 core was built with JDK 26.0.2.1, Gradle 9.5.0 and Loom 1.17.21, target
 
 ## Review and support documents
 
-- [Authentication and API reviewer notes](docs/AUTHENTICATION.md)
+- [Authentication and API reviewer notes](AUTHENTICATION.md)
 - [Privacy notice](PRIVACY.md)
-- [Application submission draft](docs/API-REVIEW-SUBMISSION.md)
-- [Build instructions](BUILD.md)
-- [Verification report](TEST-REPORT.md)
-- [Update-server deployment and limitations](DEPLOYMENT.md)
-- [Security reporting](SECURITY.md)
-- [Third-party notices](THIRD-PARTY-NOTICES.md)
 
 Contact: [pluswoori@gmail.com](mailto:pluswoori@gmail.com). Do not send passwords, live tokens, private keys, account databases or unredacted logs in an issue/email. Use the security contact for sensitive reports; no response-time or bounty commitment has been established.
 
