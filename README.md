@@ -38,7 +38,7 @@ Microsoft authentication is used to establish the user's Minecraft identity, ver
 | Minecraft 26.3 Fabric HUD                                                                       | JAR compilation, metadata/hash checks and launcher installation tested; actual in-game rendering and editor input not yet verified |
 | Forge / NeoForge / native Quilt custom HUD modules                                              | Not implemented                                                                                                                    |
 
-The exact test scope and remaining work are in [TEST-REPORT.md](TEST-REPORT.md). Downloaded Minecraft game files, test account databases and credentials are excluded from the source archive and distribution.
+Downloaded Minecraft game files, test account databases and credentials are excluded from the source archive and distribution.
 
 ## Authentication and account handling
 
@@ -51,7 +51,7 @@ The exact test scope and remaining work are in [TEST-REPORT.md](TEST-REPORT.md).
 
 Microsoft refresh tokens and Minecraft access tokens are stored in separate local vaults using Windows-backed Electron safeStorage. Profile names/UUIDs, token expiration metadata, settings and launch history are local SQLite records and are **not encrypted by the application**. Credential tokens are not returned to the renderer UI. The local Java game process receives the Minecraft access token required for its session.
 
-Logout removes the selected local account entry and vault; it does not implement global Microsoft session revocation or erase all old game/mod logs. External mods run with the game's privileges and are not sandboxed by DKKF. See [PRIVACY.md](PRIVACY.md) and the [authentication source map](docs/AUTHENTICATION.md) for details.
+Logout removes the selected local account entry and vault; it does not implement global Microsoft session revocation or erase all old game/mod logs. External mods run with the game's privileges and are not sandboxed by DKKF. See [PRIVACY.md](PRIVACY.md) and the [authentication source map](AUTHENTICATION.md) for details.
 
 The source currently exposes public-client-ID configuration in Settings. The project must register/control its own application ID and establish the necessary service access for a public release. It does not ship another launcher's ID or an embedded client secret.
 
