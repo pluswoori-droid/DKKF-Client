@@ -12,6 +12,7 @@ import target from '../../shared/target.json';
 import { LoaderMetadata } from './loader-metadata';
 import { memoryArguments, removeForcedResolution, directServerArguments } from './launch-options';
 import serverProfile from '../../shared/server-profile.json';
+import { ensureJava } from './java';
 type Rule = {
   action: string;
   os?: { name?: string; arch?: string; version?: string };
@@ -117,6 +118,13 @@ export class Minecraft {
       this.emit({ task: 'install', message: path.basename(file), current: n, total: t }),
     );
   }
+  private async prepareJava(minimum: number, signal?: AbortSignal) {
+    const java = await ensureJava(minimum, this.store.settings.javaPath, this.store.root, signal,
+      (message, current, total) => this.emit({ task: 'install', message, current, total }));
+    if (this.store.settings.javaPath !== java.path)
+      this.store.set('settings', { ...this.store.settings, javaPath: java.path });
+    return java.path;
+  }
   async install(i: Instance, signal: AbortSignal) {
     await this.validateLoader(i);
     const root = this.store.dir(i.id);
@@ -128,6 +136,7 @@ export class Minecraft {
     await this.fetchFile(meta.url, baseFile, { algorithm: 'sha1', value: meta.sha1 }, signal);
     let version = JSON.parse(await fs.readFile(baseFile, 'utf8'));
     if (!version.downloads?.client) throw Error('클라이언트 파일을 제공하지 않는 버전입니다.');
+    await this.prepareJava(version.javaVersion?.majorVersion || 8, signal);
     await this.fetchFile(
       version.downloads.client.url,
       contained(root, `versions/${i.version}/${i.version}.jar`),
@@ -298,16 +307,7 @@ export class Minecraft {
   ) {
     const root = this.store.dir(i.id);
     const v = JSON.parse(await fs.readFile(path.join(root, 'launch-profile.json'), 'utf8'));
-    const java = await promisify(execFile)(this.store.settings.javaPath, ['-version'], {
-      windowsHide: true,
-    });
-    const javaText = java.stderr + java.stdout;
-    const match = javaText.match(/version "(?:1\.)?(\d+)/);
-    const major = Number(match?.[1]);
-    if (!major || major < (v.javaVersion?.majorVersion || 8))
-      throw Error(
-        `Java ${v.javaVersion?.majorVersion || 8} 이상이 필요합니다. 현재: ${javaText.split('\n')[0]}`,
-      );
+    await this.prepareJava(v.javaVersion?.majorVersion || 8);
     const cp = (v.libraries || [])
       .filter((l: any) => allowed(l.rules))
       .map((l: any) =>

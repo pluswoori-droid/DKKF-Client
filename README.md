@@ -1,6 +1,8 @@
+> **0.6.2:** 필요한 Java가 없으면 자동 설치합니다. [변경 사항](docs/RELEASE-0.6.2.md).
+
 # Dkkf Launcher — Windows & Android source
 
-Windows **0.6.1** and Android **0.1.1-preview** source snapshot. Android includes the login activity manifest fix reported on Galaxy Z Fold 4.
+Windows **0.6.2** and Android **0.1.1-preview** source snapshot. Android includes the login activity manifest fix reported on Galaxy Z Fold 4.
 
 - Windows: `launcher/`, `shared/`, `backend/`; native mod/HUD/server bridge source: `client/`.
 - Android: `android/`, based on Amethyst/Pojav; see `android/DKKF-ANDROID.md`, `android/LICENSE` and `android/COPYING-GPL3.txt` for build instructions, upstream attribution and LGPLv3 terms.
