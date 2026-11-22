@@ -1,0 +1,22 @@
+✔ local update REST service rejects unauthorized posts and broadcasts signed WebSocket notices (343.593ms)
+✔ Microsoft client ID migration fills legacy blanks, preserves custom IDs and does not create authenticated accounts (63.2665ms)
+✔ paths reject traversal, absolute paths, NTFS streams and reserved devices (0.7842ms)
+✔ HTTPS and exact host boundary enforcement (0.1414ms)
+✔ hash rejects corrupt bytes and unsupported algorithms (0.3332ms)
+✔ Ed25519 signature rejects changed payload, forged signature and other key types (1.9745ms)
+✔ zip rejects case insensitive collisions and expansion limits (1.9004ms)
+✔ Mojang rules use ordered allow/disallow and feature predicates (0.1382ms)
+✔ Maven paths and inherited profiles preserve child library precedence (0.5982ms)
+✔ log redaction conceals bearer, access and refresh tokens (0.2544ms)
+✔ SQLite survives restart; mod import, disable, duplicate/dependency checks, backup/restore and deletion (86.9887ms)
+✔ MRPACK import validates manifest; export refuses unlicensed local JAR distribution (49.7664ms)
+✔ 26.3 Fabric target has the official Java 25 minimum (0.77ms)
+✔ signed update protocol accepts newer versions, rejects tampering/channel mismatch/downgrades; failed checks preserve installation (57.4975ms)
+ℹ tests 14
+ℹ suites 0
+ℹ pass 14
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1540.2443

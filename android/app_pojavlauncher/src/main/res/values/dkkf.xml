@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="dkkf_prepare">Preparing DKKF server</string>
+<string name="dkkf_prepare_detail">Preparing Java 25, Fabric 26.3 and required mods. The first launch needs an Internet connection.</string>
+<string name="dkkf_prepare_failed">Preparation failed</string>
+<string name="dkkf_java25">Installing Java 25 for Android ARM64…</string>
+<string name="dkkf_fabric">Preparing Fabric 26.3…</string>
+<string name="dkkf_login_wait">Verifying Microsoft account and Minecraft ownership…</string>
+<string name="dkkf_device_help">Open the official Microsoft page in your browser and enter this code. Enter your password only on the Microsoft page.</string>
+<string name="dkkf_browser">Open Microsoft sign-in</string>
+<string name="dkkf_expired">The login code expired. Please sign in again.</string>
+<string name="dkkf_about">DKKF information</string>
+<string name="dkkf_about_detail">Android ARM64 preview based on Amethyst / PojavLauncher (LGPLv3). Touch controls, Java and graphics are provided by that engine. Game, TaCZ graphics and Samsung hardware have not been tested. The modified Android source is supplied separately. Windows source is not included.</string>
+<string name="dkkf_disclaimer">NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT.</string>
+<string name="dkkf_page_size_notice">This preview includes 4 KB graphics libraries. Android 16+ page-size compatibility mode is enabled, but native 16 KB and device compatibility are unverified.</string>
+</resources>

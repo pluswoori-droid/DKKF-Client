@@ -1,0 +1,12 @@
+{
+  "status": "TESTED",
+  "results": [
+    "Korean navigation, Dkkf Launcher branding and hidden Upload Center for signed-out users",
+    "Main-process upload rejects unauthenticated callers before selecting or transmitting files",
+    "Actual automatic 26.3 Fabric installation, supplied Locator Bar 1.2.0 and initial Fabric API installation",
+    "Instance editor integrates actual Modrinth search, local mod management and manual update control",
+    "Signed-out home has no fabricated profile; no Neon Edition text or renderer errors"
+  ],
+  "errors": [],
+  "instance": "421e4eff-30fc-4790-b25a-08f50c06ed32"
+}

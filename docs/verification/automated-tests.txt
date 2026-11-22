@@ -1,0 +1,20 @@
+✔ local update REST service rejects unauthorized posts and broadcasts signed WebSocket notices (333.1091ms)
+✔ paths reject traversal, absolute paths, NTFS streams and reserved devices (0.8108ms)
+✔ HTTPS and exact host boundary enforcement (0.1489ms)
+✔ hash rejects corrupt bytes and unsupported algorithms (0.3194ms)
+✔ Ed25519 signature rejects changed payload, forged signature and other key types (2.0129ms)
+✔ zip rejects case insensitive collisions and expansion limits (1.8071ms)
+✔ Mojang rules use ordered allow/disallow and feature predicates (0.1573ms)
+✔ Maven paths and inherited profiles preserve child library precedence (0.5183ms)
+✔ log redaction conceals bearer, access and refresh tokens (0.2514ms)
+✔ SQLite survives restart; mod import, disable, duplicate/dependency checks, backup/restore and deletion (73.2799ms)
+✔ MRPACK import validates manifest; export refuses unlicensed local JAR distribution (39.4771ms)
+✔ signed update protocol accepts newer versions, rejects tampering/channel mismatch/downgrades; failed checks preserve installation (39.5475ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 537.9919

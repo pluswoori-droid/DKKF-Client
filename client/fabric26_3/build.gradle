@@ -1,0 +1,13 @@
+plugins { id 'net.fabricmc.fabric-loom' version '1.17.21' }
+base { archivesName = 'dkkf-core-fabric-26.3' }
+dependencies {
+ minecraft 'com.mojang:minecraft:26.3'
+ implementation 'net.fabricmc:fabric-loader:0.20.1'
+ implementation 'net.fabricmc.fabric-api:fabric-api:0.166.2+26.3'
+ implementation project(':common')
+ include project(':common')
+}
+processResources {
+ inputs.property 'version', project.version
+ filesMatching('fabric.mod.json') { expand version: project.version }
+}

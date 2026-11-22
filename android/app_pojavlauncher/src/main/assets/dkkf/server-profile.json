@@ -1,0 +1,72 @@
+{
+  "revision": 2,
+  "minecraft": "26.3",
+  "loader": "fabric",
+  "loaderVersion": "0.20.1",
+  "mods": [
+    {
+      "id": "fabric-api",
+      "name": "Fabric API",
+      "file": "fabric-api-0.166.2+26.3.jar",
+      "version": "0.166.2+26.3",
+      "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/Zns5SSRA/fabric-api-0.166.2%2B26.3.jar",
+      "sha256": "e8acacc7836f39237c83c2a664b039647ee36f93822797acc40cda44666002ea",
+      "source": {
+        "provider": "modrinth",
+        "project": "P7dR8mSH",
+        "version": "Zns5SSRA"
+      }
+    },
+    {
+      "id": "tacz",
+      "name": "TaCZ Reforged",
+      "file": "tacz-fabric-1.1.8+mc26.3.jar",
+      "version": "1.1.8+mc26.3",
+      "url": "https://mediafilez.forgecdn.net/files/9263/837/tacz-fabric-1.1.8%2Bmc26.3.jar",
+      "sha256": "24211b808ec87d7b1948ba73e3cde04f697bc4fcab18971420345cd79b460fe9",
+      "source": {
+        "provider": "curseforge",
+        "project": "1695614",
+        "version": "9263837"
+      }
+    },
+    {
+      "id": "trollvideo",
+      "name": "mod 3",
+      "file": "mod-3-fabric-26.3-1.0.0.jar",
+      "version": "1.0.0",
+      "url": "",
+      "sha256": "680a18daa3a4c2852b1dba22b2609efd7774f3f6958bf899480a06bbb624257a",
+      "source": null
+    },
+    {
+      "id": "xaerominimap",
+      "name": "Xaero's Minimap",
+      "file": "xaerominimap-fabric-26.3-26.6.2.jar",
+      "version": "26.6.2",
+      "url": "https://cdn.modrinth.com/data/1bokaNcj/versions/MfxfgXaO/xaerominimap-fabric-26.3-26.6.2.jar",
+      "sha256": "418f8b1481cfa133d366c2224ecddec79cc466152754febcb1b386137e2d5f71",
+      "source": {
+        "provider": "modrinth",
+        "project": "1bokaNcj",
+        "version": "MfxfgXaO"
+      },
+      "environment": "client"
+    },
+    {
+      "id": "dkkfloot_xaero",
+      "name": "Dkkf Loot Xaero Client",
+      "file": "dkkf-loot-xaero-client-26.3-2.0.2.jar",
+      "version": "2.0.2",
+      "url": "",
+      "sha256": "a6a4745e6559117d03a19e1af3d077afdc6a7c43ce1a3ee93776294b9edc5495",
+      "source": null,
+      "environment": "client"
+    }
+  ],
+  "address": "dkkf.mc-hosting.xyz",
+  "androidRuntime": {
+    "url": "https://github.com/AngelAuraMC/angelauramc-openjdk-build/releases/download/download_jre25/jre25-android-arm64.tar.xz",
+    "sha256": "d3eb7afe2240c26728a1bb440502c5f18ac3883e932d202dd7f0c9bcbbce4c37"
+  }
+}

@@ -1,0 +1,8 @@
+base { archivesName = 'dkkf-bridge-paper-26.3' }
+version = '0.1.0'
+repositories { maven { url 'https://repo.papermc.io/repository/maven-public/' } }
+dependencies {
+    compileOnly 'io.papermc.paper:paper-api:26.3.build.253-stable'
+    implementation project(':bridgecommon')
+}
+tasks.named('jar') { from project(':bridgecommon').sourceSets.main.output }

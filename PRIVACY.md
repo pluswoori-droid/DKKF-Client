@@ -1,10 +1,12 @@
-# Privacy Notice — DKKF Client
+> **0.3.0 current release:** [변경·검증·로그인 설정](docs/RELEASE-0.3.0.md) · [공개 다운로드](https://dkkf-launcher.gitbal-cream.chatgpt.site). Earlier feature/test descriptions below may describe prior builds; see the release notes for current navigation and verification.
 
-Last updated: November 16, 2026  
-Applies to: the DKKF Client 0.2.0 Windows launcher source and development build  
+# Privacy Notice — Dkkf Launcher
+
+Last updated: November 17, 2026  
+Applies to: the Dkkf Launcher 0.3.0 Windows launcher source and development build  
 Project contact: [pluswoori@gmail.com](mailto:pluswoori@gmail.com)
 
-This notice describes the current implementation. Microsoft/Minecraft authentication has not yet been validated end to end with an approved application ID and a real user account. Features requiring platform credentials are identified as pending in the project documentation. This notice does not assert Microsoft approval or legal certification.
+This notice describes the current implementation. The project owner reported Microsoft approval on November 17, 2026; the registered public client ID is now configured by default. Microsoft/Minecraft authentication has not yet been validated end to end with a real user account. Overwolf/CurseForge approval remains pending. The owner-reported status is recorded separately from actual integration tests; this notice is not an independent approval verification or legal certification.
 
 ## 1. Local data
 
@@ -71,3 +73,25 @@ Logs and play history have no automatic expiration in this development build. Ex
 Contact [pluswoori@gmail.com](mailto:pluswoori@gmail.com) for questions about this implementation or to report a privacy concern. Do not email live credentials. If the launcher adds hosted accounts, telemetry, new uploads or other materially different data handling, this notice must be updated to match the released code.
 
 NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT.
+
+## 0.3.0 additions
+
+After successful account verification, the launcher downloads the account skin from the official textures.minecraft.net host, crops the face locally and stores the face PNG in the local account metadata cache. It displays the nickname and face on Home. Signing out removes the account metadata. No third-party avatar service is used.
+
+The public distribution website serves installer/source/checksum files without an account. Hosting providers process ordinary HTTP request metadata for delivery and operations. The release upload API requires a separate server-only administrator credential; Microsoft tokens are never sent to this website.
+
+## 0.4.0 content library
+
+Instance creation or first launch can request compatible preset project metadata and files from Modrinth and its CDN. This initial setup can be disabled per instance. No Microsoft credentials are sent with these content requests. Resource/shader metadata, selection settings and preset installation results remain in local instance storage. World imports copy user-selected files into local saves; removed content is retained under the instance content-backups directory.
+
+## 0.4.3 Discord Rich Presence
+
+When enabled, the launcher sends generic launcher/game activity, Minecraft version/loader and an elapsed-time timestamp to the locally running Discord desktop client. Discord may display that activity to other users according to its activity-sharing settings. This integration does not send Minecraft names/UUIDs, instance/world names, server addresses or authentication tokens. It does not request Discord identity, chat or guild data. The setting can be disabled immediately, including while playing.
+
+## 0.4.4 dependency identification
+
+For automatic dependency repair, SHA-512 hashes of enabled local mod JARs may be sent to the official Modrinth API to identify their published versions. JAR contents, local file paths, account names and authentication tokens are not sent with these lookups. Repair results and update handoff/error records are stored locally.
+
+## 0.5.0 DKKF server bridge
+
+The optional Fabric bridge exchanges protocol/session nonces, a server-issued session token, feature IDs, feature labels and enabled states with the Minecraft server currently joined. It does not send Microsoft tokens, passwords or local files. Normal Minecraft server identity/permission handling remains server-side. The launcher can export the bundled Paper plugin locally and add the Fabric bridge to matching 26.3 instances.

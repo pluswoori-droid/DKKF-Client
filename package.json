@@ -1,0 +1,86 @@
+{
+  "name": "dkkf-client",
+  "version": "0.6.1",
+  "private": true,
+  "description": "Dkkf Launcher — DKKF 서버 전용 Fabric 26.3",
+  "author": "DKKF",
+  "license": "UNLICENSED",
+  "main": "dist/main/main.cjs",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build": "tsc --noEmit && vite build && node scripts/build.mjs",
+    "start": "electron .",
+    "test": "tsx --test tests/*.test.ts tests/*.test.tsx",
+    "test:live": "tsx scripts/live-check.ts",
+    "package": "node scripts/package.mjs",
+    "server": "tsx backend/server.ts",
+    "format": "prettier --write launcher shared backend scripts tests *.json *.md vite.config.ts docs"
+  },
+  "dependencies": {
+    "adm-zip": "0.6.1",
+    "pngjs": "7.0.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "sql.js": "1.16.0",
+    "ws": "8.23.0",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@types/adm-zip": "0.5.7",
+    "@types/node": "24.10.0",
+    "@types/pngjs": "6.0.5",
+    "@types/react": "19.2.2",
+    "@types/react-dom": "19.2.2",
+    "@types/sql.js": "1.4.9",
+    "@types/ws": "8.18.1",
+    "@vitejs/plugin-react": "6.3.0",
+    "electron": "45.3.3",
+    "electron-builder": "26.18.0",
+    "esbuild": "0.28.2",
+    "prettier": "3.6.2",
+    "tsx": "4.20.6",
+    "typescript": "5.9.3",
+    "vite": "8.3.8"
+  },
+  "build": {
+    "appId": "kr.dkkf.client",
+    "productName": "Dkkf Launcher",
+    "directories": {
+      "output": "release/0.6.1"
+    },
+    "files": [
+      "dist/**/*",
+      "package.json",
+      "!dist/**/*.map"
+    ],
+    "asar": true,
+    "extraResources": [
+      {
+        "from": "node_modules/sql.js/dist/sql-wasm.wasm",
+        "to": "sql-wasm.wasm"
+      },
+      {
+        "from": "assets/icon.png",
+        "to": "icon.png"
+      },
+      {
+        "from": "assets/server-mods",
+        "to": "server-mods"
+      }
+    ],
+    "win": {
+      "target": "nsis",
+      "artifactName": "Dkkf-Launcher-${version}-Setup.${ext}",
+      "signAndEditExecutable": true,
+      "icon": "assets/icon.ico",
+      "signExecutable": false
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true
+    }
+  },
+  "type": "module"
+}

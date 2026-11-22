@@ -1,0 +1,10 @@
+{
+  "status": "TESTED",
+  "file": "dkkf-core-fabric-26.3-0.2.0.jar",
+  "sha256": "20f5fb3734ce3428d15b485bc95f160f9cc5e696c1a1f5d8d43e3c935d21fbb1",
+  "minecraft": "26.3",
+  "loader": "fabric",
+  "javaMinimum": 25,
+  "classVersion": 69,
+  "scope": "Compiled artifact and nested common metadata; in-game rendering not tested"
+}

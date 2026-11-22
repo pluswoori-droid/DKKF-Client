@@ -1,0 +1,639 @@
+{
+  "홈": ["Home", "Нүүр"],
+  "인스턴스": ["Instances", "Тоглоомын орчин"],
+  "업데이트": ["Updates", "Шинэчлэлт"],
+  "설정": ["Settings", "Тохиргоо"],
+  "계정": ["Account", "Бүртгэл"],
+  "Electron 연결이 없습니다. Dkkf Launcher 데스크톱 앱으로 실행하세요.": [
+    "Electron is unavailable. Open the Dkkf Launcher desktop app.",
+    "Electron холболт алга. Dkkf Launcher суурин аппыг нээнэ үү."
+  ],
+  "새 런처 버전이 있습니다. 업데이트 센터에서 확인하세요.": [
+    "A launcher update is available. Open Updates to continue.",
+    "Лаунчерын шинэ хувилбар гарлаа. Шинэчлэлт хэсгийг нээнэ үү."
+  ],
+  "업데이트 다운로드 완료. 업데이트 센터에서 설치 프로그램을 열 수 있습니다.": [
+    "Update downloaded. You can open the installer from Updates.",
+    "Шинэчлэлт татагдлаа. Шинэчлэлт хэсгээс суулгагчийг нээж болно."
+  ],
+  "Dkkf Launcher 로고": ["Dkkf Launcher logo", "Dkkf Launcher лого"],
+  "보안 저장소를 준비하고 있습니다…": [
+    "Preparing secure storage…",
+    "Аюулгүй хадгалах санг бэлдэж байна…"
+  ],
+  "작업 공간": ["Workspace", "Ажлын талбар"],
+  "관리": ["Manage", "Удирдах"],
+  "계정 연결": ["Connect account", "Бүртгэл холбох"],
+  "Microsoft 계정": ["Microsoft account", "Microsoft бүртгэл"],
+  "Microsoft 로그인 필요": [
+    "Microsoft sign-in required",
+    "Microsoft бүртгэлээр нэвтрэх шаардлагатай"
+  ],
+  "게임 실행 중": ["Game running", "Тоглоом ажиллаж байна"],
+  "작업 중": ["Working", "Ажиллаж байна"],
+  "실행 준비": ["Ready to play", "Тоглоход бэлэн"],
+  "로그인 필요": ["Sign-in required", "Нэвтрэх шаардлагатай"],
+  "실행 로그": ["Launch logs", "Асаалтын бүртгэл"],
+  "나만의 마인크래프트": ["Your Minecraft", "Таны Minecraft"],
+  "님": ["", ""],
+  "다음 모험을 시작할 준비가 되었나요?": [
+    "Ready for your next adventure?",
+    "Дараагийн адал явдалдаа бэлэн үү?"
+  ],
+  "를 관리하세요.": ["Manage this page.", "Энэ хэсгийг удирдах."],
+  "선택한 인스턴스": ["Selected instance", "Сонгосон орчин"],
+  "인스턴스 선택": ["Select an instance", "Орчин сонгох"],
+  "작업 진행 중": ["Task in progress", "Даалгавар гүйцэтгэж байна"],
+  "모험을 위한 나만의 공간": ["Your space for adventure", "Таны адал явдлын орон зай"],
+  "취소": ["Cancel", "Цуцлах"],
+  "처리 중…": ["Processing…", "Боловсруулж байна…"],
+  "아직 게임 실행 로그가 없습니다.": ["No launch logs yet.", "Асаалтын бүртгэл хараахан алга."],
+  "로그 폴더 열기": ["Open logs folder", "Бүртгэлийн хавтас нээх"],
+  "닫기": ["Close", "Хаах"],
+  "새로운 세상,": ["A new world,", "Шинэ ертөнц,"],
+  "나만의 플레이.": ["your own way to play.", "таны тоглох арга."],
+  "버전부터 모드까지, 당신의 방식대로.": [
+    "Versions and mods, your way.",
+    "Хувилбар, модыг өөрийнхөөрөө сонго."
+  ],
+  "DKKF와 함께 다음 모험을 시작하세요.": [
+    "Start your next adventure with DKKF.",
+    "Дараагийн адал явдлаа DKKF-тэй эхлүүлээрэй."
+  ],
+  "게임 실행": ["Play", "Тоглох"],
+  "게임 설치": ["Install game", "Тоглоом суулгах"],
+  "인스턴스 만들기": ["Create instance", "Орчин үүсгэх"],
+  "인스턴스 관리 ↗": ["Manage instances ↗", "Орчноо удирдах ↗"],
+  "인스턴스를 만든 뒤 Microsoft 계정을 연결하세요.": [
+    "Create an instance, then connect your Microsoft account.",
+    "Орчин үүсгээд Microsoft бүртгэлээ холбоно уу."
+  ],
+  "내 인스턴스": ["My instances", "Миний орчнууд"],
+  "독립된 게임 환경": ["Separate game environments", "Тусдаа тоглоомын орчнууд"],
+  "선택한 로더": ["Selected loader", "Сонгосон мод ачаалагч"],
+  "선택된 로더 없음": ["No loader selected", "Мод ачаалагч сонгоогүй"],
+  "메모리": ["Memory", "Санах ой"],
+  "자동": ["Automatic", "Автомат"],
+  "인스턴스별 메모리 할당": [
+    "Memory allocation per instance",
+    "Орчин тус бүрийн санах ойн хуваарилалт"
+  ],
+  "바로 이어서 플레이": ["Continue playing", "Үргэлжлүүлэн тоглох"],
+  "모두 보기 ↗": ["View all ↗", "Бүгдийг харах ↗"],
+  "실행": ["Launch", "Асаах"],
+  "설치": ["Install", "Суулгах"],
+  "첫 번째 세계를 준비하세요": ["Prepare your first world", "Анхны ертөнцөө бэлдээрэй"],
+  "Minecraft 버전과 로더를 자유롭게 선택할 수 있어요.": [
+    "Choose your Minecraft version and loader.",
+    "Minecraft хувилбар болон мод ачаалагчаа сонгоно уу."
+  ],
+  "플레이에 나만의 설정을": ["Make it yours", "Өөрийнхөөрөө тохируул"],
+  "플레이에 가능성을 더하다.": [
+    "More possibilities for your game.",
+    "Тоглоомдоо шинэ боломж нэмээрэй."
+  ],
+  "Modrinth와 CurseForge에서": ["Browse Modrinth and CurseForge", "Modrinth болон CurseForge-оос"],
+  "내 버전에 맞는 모드를 찾아보세요.": [
+    "for mods that match your version.",
+    "өөрийн хувилбарт тохирох модыг олоорой."
+  ],
+  "인스턴스 모드 관리 ↗": ["Manage instance mods ↗", "Орчны модыг удирдах ↗"],
+  "최근 플레이 기록": ["Recent play history", "Сүүлийн тоглосон түүх"],
+  "최근 실행 기록": ["Recent launches", "Сүүлийн асаалтууд"],
+  "종료 코드": ["Exit code", "Гаралтын код"],
+  "실제로 실행을 완료한 게임의 기록이 여기에 표시됩니다.": [
+    "Completed game sessions appear here.",
+    "Дууссан тоглоомын сессүүд энд харагдана."
+  ],
+  "DKKF 서버 · dkkf.mc-hosting.xyz 자동 접속 · Fabric 26.3. 비공식 Minecraft 런처이며 Mojang 또는 Microsoft와 제휴하지 않습니다.": [
+    "DKKF server · Auto-connect to dkkf.mc-hosting.xyz · Fabric 26.3. An unofficial Minecraft launcher, not affiliated with Mojang or Microsoft.",
+    "DKKF сервер · dkkf.mc-hosting.xyz руу автоматаар холбогдоно · Fabric 26.3. Mojang эсвэл Microsoft-той холбоогүй албан бус Minecraft лаунчер."
+  ],
+  "개의 독립된 환경": ["separate environments", "тусдаа орчин"],
+  "인스턴스 검색": ["Search instances", "Орчин хайх"],
+  "인스턴스 검색…": ["Search instances…", "Орчин хайх…"],
+  "＋ 새 인스턴스": ["＋ New instance", "＋ Шинэ орчин"],
+  "모험의 시작점을 만드세요": ["Create your starting point", "Адал явдлын эхлэлээ үүсгээрэй"],
+  "공식 Minecraft 파일로 버전마다 독립된 인스턴스를 설치합니다.": [
+    "Install separate instances using official Minecraft files.",
+    "Minecraft-ийн албан ёсны файлаар тусдаа орчин суулгана."
+  ],
+  "RAM 자동 관리": ["Automatic RAM management", "RAM-ыг автоматаар удирдах"],
+  "설치됨": ["Installed", "Суулгасан"],
+  "설치 실패": ["Installation failed", "Суулгалт амжилтгүй"],
+  "설치 중": ["Installing", "Суулгаж байна"],
+  "▶ 실행": ["▶ Launch", "▶ Асаах"],
+  "설치 재시도": ["Retry installation", "Дахин суулгах"],
+  "선택됨": ["Selected", "Сонгосон"],
+  "선택": ["Select", "Сонгох"],
+  "편집": ["Edit", "Засах"],
+  "복제": ["Duplicate", "Хуулбарлах"],
+  "폴더": ["Folder", "Хавтас"],
+  "삭제": ["Delete", "Устгах"],
+  "나의 Minecraft": ["My Minecraft", "Миний Minecraft"],
+  "새 인스턴스": ["New instance", "Шинэ орчин"],
+  "직접 만들기": ["Create manually", "Гараар үүсгэх"],
+  "게임 버전과 로더를 선택하면 자동 설치됩니다.": [
+    "Choose a version and loader for automatic installation.",
+    "Хувилбар болон мод ачаалагч сонговол автоматаар суулгана."
+  ],
+  "업로드하기": ["Import a modpack", "Мод багц импортлох"],
+  "26.3 Fabric 모드팩 가져오기 · 서버 필수 모드 자동 추가": [
+    "Import a Fabric 26.3 modpack · Server mods added automatically",
+    "Fabric 26.3 мод багц импортлох · Серверийн модыг автоматаар нэмнэ"
+  ],
+  "모드팩을 가져오고 게임을 자동 설치하고 있습니다…": [
+    "Importing the modpack and installing the game…",
+    "Мод багцыг импортлон тоглоомыг суулгаж байна…"
+  ],
+  "이름": ["Name", "Нэр"],
+  "스냅샷·과거 버전 포함": [
+    "Include snapshots and older versions",
+    "Туршилтын болон хуучин хувилбаруудыг харуулах"
+  ],
+  "DKKF 서버용 Fabric 26.3 구성: TaCZ Reforged · Fabric API · mod 3를 별도 확인 없이 자동 설치합니다. DKKF HUD·Locator Bar는 기본 설치하지 않으며 실행하면 dkkf.mc-hosting.xyz로 접속합니다.": [
+    "DKKF Fabric 26.3: TaCZ Reforged, Fabric API and mod 3 install automatically. HUD and Locator Bar are excluded. Launching connects to dkkf.mc-hosting.xyz.",
+    "DKKF Fabric 26.3: TaCZ Reforged, Fabric API, mod 3 автоматаар сууна. HUD болон Locator Bar суулгахгүй. Асаахад dkkf.mc-hosting.xyz руу холбогдоно."
+  ],
+  "Minecraft 버전": ["Minecraft version", "Minecraft хувилбар"],
+  "모드 로더": ["Mod loader", "Мод ачаалагч"],
+  "호환 로더 버전": ["Compatible loader version", "Тохирох мод ачаалагчийн хувилбар"],
+  "조회 중…": ["Loading…", "Ачаалж байна…"],
+  "버전 선택": ["Select a version", "Хувилбар сонгох"],
+  "RAM 상한 직접 설정": ["Set a RAM limit", "RAM-ын хязгаар тогтоох"],
+  "JVM 자동 관리": ["Managed by JVM", "JVM автоматаар удирдана"],
+  "Fabric 선택": ["Select Fabric", "Fabric сонгох"],
+  "생성 후 설치 버튼으로 공식 게임 파일을 다운로드합니다. 버전에 맞는 Java는 Settings에서 지정하세요.": [
+    "Official game files install automatically. Set the required Java version in Settings.",
+    "Тоглоомын албан ёсны файлууд автоматаар сууна. Шаардлагатай Java-г Тохиргоо хэсэгт сонгоно уу."
+  ],
+  "생성 및 자동 설치 중…": ["Creating and installing…", "Үүсгэж, суулгаж байна…"],
+  "생성 및 자동 설치": ["Create and install", "Үүсгээд суулгах"],
+  "개요": ["Overview", "Тойм"],
+  "← 모든 인스턴스": ["← All instances", "← Бүх орчин"],
+  "폴더 열기": ["Open folder", "Хавтас нээх"],
+  "▶ 플레이": ["▶ Play", "▶ Тоглох"],
+  "인스턴스 메뉴": ["Instance menu", "Орчны цэс"],
+  "콘텐츠": ["Content", "Агуулга"],
+  "월드": ["Worlds", "Ертөнцүүд"],
+  "모드팩": ["Modpacks", "Мод багцууд"],
+  "게임 버전": ["Game version", "Тоглоомын хувилбар"],
+  "마지막 플레이": ["Last played", "Сүүлд тоглосон"],
+  "아직 플레이하지 않음": ["Not played yet", "Хараахан тоглоогүй"],
+  "인스턴스 설정을 저장했습니다.": ["Instance settings saved.", "Орчны тохиргоо хадгалагдлаа."],
+  "인스턴스 설정": ["Instance settings", "Орчны тохиргоо"],
+  "설치 완료": ["Installation complete", "Суулгалт дууссан"],
+  "설치 준비 필요": ["Installation required", "Суулгах шаардлагатай"],
+  "서버 필수 모드는 자동 준비됩니다. TaCZ Reforged · Fabric API · mod 3의 고정 버전을 사용하며 DKKF HUD는 제외합니다.": [
+    "Required server mods are prepared automatically. TaCZ Reforged, Fabric API and mod 3 use pinned versions. DKKF HUD is excluded.",
+    "Серверийн шаардлагатай модыг автоматаар бэлдэнэ. TaCZ Reforged, Fabric API, mod 3 тогтоосон хувилбарыг ашиглана. DKKF HUD суулгахгүй."
+  ],
+  "설정 저장": ["Save settings", "Тохиргоо хадгалах"],
+  "콘텐츠 유형": ["Content type", "Агуулгын төрөл"],
+  "모드": ["Mods", "Модууд"],
+  "리소스팩": ["Resource packs", "Нөөцийн багцууд"],
+  "쉐이더팩": ["Shader packs", "Шейдерийн багцууд"],
+  "← 설치된 콘텐츠": ["← Installed content", "← Суулгасан агуулга"],
+  "＋ 콘텐츠 추가": ["＋ Add content", "＋ Агуулга нэмэх"],
+  "설치된 모드 상태를 불러오지 못했습니다.": [
+    "Could not load installed mods.",
+    "Суулгасан модуудыг уншиж чадсангүй."
+  ],
+  "Overwolf 승인 대기 · API 키 필요": [
+    "Overwolf approval pending · API key required",
+    "Overwolf зөвшөөрөл хүлээгдэж байна · API түлхүүр шаардлагатай"
+  ],
+  "공식 API · 원본 파일 검증": [
+    "Official API · Original file verification",
+    "Албан ёсны API · Эх файлыг шалгана"
+  ],
+  "콘텐츠 검색": ["Search content", "Агуулга хайх"],
+  "모드 검색…": ["Search mods…", "Мод хайх…"],
+  "리소스팩 검색…": ["Search resource packs…", "Нөөцийн багц хайх…"],
+  "쉐이더팩 검색…": ["Search shader packs…", "Шейдерийн багц хайх…"],
+  "검색": ["Search", "Хайх"],
+  "모든 버전": ["All versions", "Бүх хувилбар"],
+  "모든 로더": ["All loaders", "Бүх мод ачаалагч"],
+  "개 중": ["items;", "үр дүнгээс"],
+  "표시": ["shown", "харагдаж байна"],
+  "카테고리": ["Categories", "Ангилал"],
+  "모든 카테고리": ["All categories", "Бүх ангилал"],
+  "정렬": ["Sort", "Эрэмбэлэх"],
+  "인기순": ["Relevance", "Хамаарлаар"],
+  "다운로드순": ["Downloads", "Таталтын тоогоор"],
+  "최신순": ["Newest", "Хамгийн шинээр"],
+  "검색을 완료하지 못했습니다": ["Search could not be completed", "Хайлтыг дуусгаж чадсангүй"],
+  "다시 시도": ["Try again", "Дахин оролдох"],
+  "✓ 설치됨": ["✓ Installed", "✓ Суулгасан"],
+  "✓ 설치됨 · 비활성": ["✓ Installed · Disabled", "✓ Суулгасан · Идэвхгүй"],
+  "자세히 ↗": ["Details ↗", "Дэлгэрэнгүй ↗"],
+  "검색 결과가 없습니다": ["No search results", "Хайлтын үр дүн алга"],
+  "다른 검색어나 인스턴스 버전을 선택하세요.": [
+    "Try another search or instance version.",
+    "Өөр үг эсвэл орчны хувилбараар хайна уу."
+  ],
+  "콘텐츠 검색 페이지": ["Content search pages", "Агуулгын хайлтын хуудсууд"],
+  "← 이전 페이지": ["← Previous", "← Өмнөх"],
+  "페이지": ["Page", "Хуудас"],
+  "다음 페이지 →": ["Next →", "Дараах →"],
+  "✓ 설치됨 ·": ["✓ Installed ·", "✓ Суулгасан ·"],
+  "· 비활성": ["· Disabled", "· Идэвхгүй"],
+  "제작자 ·": ["Author ·", "Зохиогч ·"],
+  "호환성을 확인하려면 인스턴스를 선택하세요.": [
+    "Select an instance to check compatibility.",
+    "Тохирох эсэхийг шалгахын тулд орчин сонгоно уу."
+  ],
+  "호환 버전 조회 중…": ["Checking compatible versions…", "Тохирох хувилбаруудыг шалгаж байна…"],
+  "라이선스 ·": ["License ·", "Лиценз ·"],
+  "프로젝트 페이지에서 확인": ["See the project page", "Төслийн хуудаснаас үзэх"],
+  "공식 프로젝트 페이지 ↗": ["Official project page ↗", "Албан ёсны төслийн хуудас ↗"],
+  "설치할 버전": ["Version to install", "Суулгах хувилбар"],
+  "호환 버전 없음": ["No compatible version", "Тохирох хувилбар алга"],
+  "필수 의존성을 함께 설치하며 원본 파일 해시를 검증합니다.": [
+    "Required dependencies install together. Original file hashes are verified.",
+    "Шаардлагатай хамаарлууд хамт сууна. Эх файлын хэшийг шалгана."
+  ],
+  "원본 ZIP 파일의 해시와 게임 버전을 검증합니다. 설치 후 콘텐츠 목록에서 활성화할 수 있습니다.": [
+    "ZIP hashes and game versions are checked. Activate content from the installed list.",
+    "ZIP хэш болон тоглоомын хувилбарыг шалгана. Суулгасан жагсаалтаас идэвхжүүлээрэй."
+  ],
+  "✓ 이미 설치된 버전": ["✓ This version is installed", "✓ Энэ хувилбар суусан"],
+  "↓ 모드 설치": ["↓ Install mod", "↓ Мод суулгах"],
+  "↓ 리소스팩 설치": ["↓ Install resource pack", "↓ Нөөцийн багц суулгах"],
+  "↓ 쉐이더팩 설치": ["↓ Install shader pack", "↓ Шейдерийн багц суулгах"],
+  "인스턴스를 선택하세요": ["Select an instance", "Орчин сонгоно уу"],
+  "인스턴스마다 모드를 독립적으로 관리합니다.": [
+    "Each instance manages its mods independently.",
+    "Орчин бүр модоо тусад нь удирдана."
+  ],
+  "활성 ·": ["enabled ·", "идэвхтэй ·"],
+  "개 파일": ["files", "файл"],
+  "필수 의존성": ["Required dependencies", "Шаардлагатай хамаарлууд"],
+  "개 설치 완료": ["installed", "суулгалаа"],
+  "필수 의존성 확인 완료": ["Dependency check complete", "Хамаарлын шалгалт дууслаа"],
+  "의존성 확인 / 복구": ["Check / repair dependencies", "Хамаарлыг шалгах / засах"],
+  "업데이트 확인": ["Check for updates", "Шинэчлэлт шалгах"],
+  "백업 완료:": ["Backup created:", "Нөөц хуулбар үүсгэлээ:"],
+  "백업": ["Back up", "Нөөцлөх"],
+  "복원": ["Restore", "Сэргээх"],
+  "＋ JAR 가져오기": ["＋ Import JAR", "＋ JAR импортлох"],
+  "JAR 파일은 신뢰할 수 있는 제작자에게서 받으세요. 누락 의존성·동일 ID/해시 중복을 표시하며, 버전 범위 충돌의 완전한 분석은 지원하지 않습니다.": [
+    "Only import JARs from trusted authors. Missing dependencies and duplicate IDs or hashes are flagged. Full version-range conflict analysis is not supported.",
+    "Зөвхөн итгэлтэй зохиогчийн JAR файлыг оруулна уу. Дутуу хамаарал, давхардсан ID болон хэшийг харуулна. Хувилбарын хүрээний бүх зөрчлийг шинжлэхгүй."
+  ],
+  "설치된 모드 검색": ["Search installed mods", "Суулгасан модоос хайх"],
+  "모드 이름, 파일명, 제작자, 버전으로 검색…": [
+    "Search name, filename, author or version…",
+    "Нэр, файлын нэр, зохиогч, хувилбараар хайх…"
+  ],
+  "개": ["items", "ширхэг"],
+  "검색 지우기": ["Clear search", "Хайлтыг цэвэрлэх"],
+  "버전 / 제작자": ["Version / Author", "Хувилбар / Зохиогч"],
+  "검사": ["Checks", "Шалгалт"],
+  "상태": ["Status", "Төлөв"],
+  "알 수 없음": ["Unknown", "Тодорхойгүй"],
+  "기본 검사 통과": ["Basic checks passed", "Үндсэн шалгалтад тэнцсэн"],
+  "비활성화": ["Disable", "Идэвхгүй болгох"],
+  "활성화": ["Enable", "Идэвхжүүлэх"],
+  "아직 설치된 모드가 없습니다": ["No mods installed yet", "Суулгасан мод хараахан алга"],
+  "다른 검색어를 입력하거나 검색을 지워보세요.": [
+    "Try another search or clear the filter.",
+    "Өөр үг оруулах эсвэл хайлтыг цэвэрлэнэ үү."
+  ],
+  "콘텐츠 추가에서 검색하거나 로컬 JAR를 가져오세요.": [
+    "Find mods in Add content or import a local JAR.",
+    "Агуулга нэмэх хэсгээс мод олох эсвэл JAR файл импортлоорой."
+  ],
+  "모드 백업 복원": ["Restore mod backup", "Модын нөөц хуулбар сэргээх"],
+  "백업이 없습니다.": ["No backups available.", "Нөөц хуулбар алга."],
+  "모드 업데이트": ["Mod updates", "Модын шинэчлэлт"],
+  "공식 플랫폼에서 더 새로운 호환 버전을 찾지 못했습니다.": [
+    "No newer compatible version was found on the official platform.",
+    "Албан ёсны платформд шинэ тохирох хувилбар олдсонгүй."
+  ],
+  "JAR를 재배포하지 않는 플랫폼 참조 방식": [
+    "Platform references without redistributing JARs",
+    "JAR тараахгүйгээр платформын холбоос ашиглана"
+  ],
+  "현재 인스턴스를 모드팩으로 등록": [
+    "Register this instance as a modpack",
+    "Энэ орчныг мод багц болгон бүртгэх"
+  ],
+  "↓ 모드팩 가져오기": ["↓ Import modpack", "↓ Мод багц импортлох"],
+  "MRPACK 및 CurseForge ZIP을 새 인스턴스로 가져옵니다. 내보내기는 선택한 플랫폼에서 출처가 확인된 모드만 지원합니다. 설정·월드·개인 파일은 공유 파일에 포함하지 않습니다.": [
+    "Import MRPACK or CurseForge ZIP as a new instance. Exports require a known platform source. Settings, worlds and personal files are excluded.",
+    "MRPACK эсвэл CurseForge ZIP-ийг шинэ орчинд импортлоно. Экспортод платформын эх сурвалж батлагдсан байх ёстой. Тохиргоо, ертөнц, хувийн файлыг оруулахгүй."
+  ],
+  "MRPACK 내보내기": ["Export MRPACK", "MRPACK экспортлох"],
+  "나만의 모드팩을 구성하세요": ["Build your own modpack", "Өөрийн мод багцыг үүсгээрэй"],
+  "현재 인스턴스를 등록하거나 MRPACK / CurseForge ZIP을 가져오세요.": [
+    "Register this instance or import MRPACK / CurseForge ZIP.",
+    "Энэ орчныг бүртгэх эсвэл MRPACK / CurseForge ZIP импортлоно уу."
+  ],
+  "안전한 런처 업데이트": ["Secure launcher updates", "Лаунчерын аюулгүй шинэчлэлт"],
+  "채널:": ["Channel:", "Суваг:"],
+  "· 자동 업데이트": ["· Automatic updates", "· Автомат шинэчлэлт"],
+  "활성화 (5분 간격)": ["Enabled (every 5 minutes)", "Идэвхтэй (5 минут тутам)"],
+  "새 버전을 자동 다운로드합니다. 런처를 닫거나 아래 설치 버튼을 누르면 업데이트 설치 창이 열립니다.": [
+    "New versions download automatically. Close the launcher or use the install button to open the updater.",
+    "Шинэ хувилбарыг автоматаар татна. Лаунчерийг хаах эсвэл суулгах товчийг дарвал шинэчлэгч нээгдэнэ."
+  ],
+  "업데이트 확인 중…": ["Checking for updates…", "Шинэчлэлт шалгаж байна…"],
+  "업데이트 다운로드 중…": ["Downloading update…", "Шинэчлэлт татаж байна…"],
+  "설치 프로그램 여는 중…": ["Opening installer…", "Суулгагчийг нээж байна…"],
+  "업데이트 안내": ["Update information", "Шинэчлэлтийн мэдээлэл"],
+  "배포 설정 필요": ["Distribution setup required", "Түгээлтийн тохиргоо шаардлагатай"],
+  "최신 버전입니다": ["You are up to date", "Хамгийн сүүлийн хувилбар байна"],
+  "새 버전": ["New version", "Шинэ хувилбар"],
+  "설치 준비 완료": ["Ready to install", "Суулгахад бэлэн"],
+  "설치 프로그램이 열리지 않으면 다운로드 폴더에서 설치 파일을 직접 실행할 수 있습니다.": [
+    "If the installer does not open, run it from the download folder.",
+    "Суулгагч нээгдэхгүй бол таталтын хавтаснаас шууд ажиллуулна уу."
+  ],
+  "업데이트 파일 폴더 열기": ["Open update folder", "Шинэчлэлтийн хавтас нээх"],
+  "검증 후 다운로드": ["Verify and download", "Шалгаад татах"],
+  "설치 창 열기 및 런처 종료": [
+    "Open installer and close launcher",
+    "Суулгагчийг нээж лаунчерийг хаах"
+  ],
+  "검증된 업데이트": ["Verified updates", "Баталгаажуулсан шинэчлэлт"],
+  "신뢰한 Ed25519 키로 매니페스트를 검증하고 SHA-256·파일 크기를 검사합니다. 검증 실패 시 현재 설치 파일을 유지합니다.": [
+    "The trusted Ed25519 key verifies the manifest; SHA-256 and file size are checked. Failed verification leaves the current installation unchanged.",
+    "Итгэлтэй Ed25519 түлхүүрээр жагсаалтыг баталгаажуулж, SHA-256 болон файлын хэмжээг шалгана. Шалгалт амжилтгүй бол одоогийн суулгалтыг хэвээр үлдээнэ."
+  ],
+  "지원 범위": ["Supported features", "Дэмжих боломжууд"],
+  "런처 설치 프로그램의 검증·다운로드·실행을 지원합니다. 설치된 서버 필수 모드 준비를 지원합니다. 런처 설치 후 자동 롤백은 아직 구현되지 않았습니다.": [
+    "Verifies, downloads and launches installers, and prepares required server mods. Automatic rollback after launcher installation is not implemented.",
+    "Суулгагчийг шалгаж, татаж, асаана. Серверийн шаардлагатай модыг бэлдэнэ. Лаунчер суулгасны дараа автоматаар буцаах боломж хэрэгжээгүй."
+  ],
+  "게임 환경": ["Game environment", "Тоглоомын орчин"],
+  "Java 실행 파일": ["Java executable", "Java ажиллуулах файл"],
+  "찾기": ["Browse", "Сонгох"],
+  "자동 검색": ["Detect automatically", "Автоматаар олох"],
+  "Fabric 기준 Java": ["Fabric requires Java", "Fabric-д Java"],
+  "이상이 필요합니다. 자동 검색으로 설치된 Java를 찾거나 java.exe 경로를 지정하세요.": [
+    "or newer. Detect Java automatically or choose java.exe.",
+    "эсвэл түүнээс шинэ хувилбар хэрэгтэй. Java-г автоматаар олох эсвэл java.exe-г сонгоно уу."
+  ],
+  "새 인스턴스의 RAM 상한 직접 설정": [
+    "Set RAM limits for new instances",
+    "Шинэ орчны RAM-ын хязгаарыг тогтоох"
+  ],
+  "기본 RAM:": ["Default RAM:", "Үндсэн RAM:"],
+  "게임 해상도 직접 설정": ["Set game resolution", "Тоглоомын нягтаршил тохируулах"],
+  "해상도 너비": ["Resolution width", "Нягтаршлын өргөн"],
+  "해상도 높이": ["Resolution height", "Нягтаршлын өндөр"],
+  "전체 화면": ["Fullscreen", "Бүтэн дэлгэц"],
+  "게임·다운로드·로그 데이터 폴더 열기 ↗": [
+    "Open game, download and log folder ↗",
+    "Тоглоом, таталт, бүртгэлийн хавтас нээх ↗"
+  ],
+  "인증 및 업데이트": ["Authentication and updates", "Нэвтрэлт ба шинэчлэлт"],
+  "Discord Rich Presence 표시 · 즉시 적용": [
+    "Discord Rich Presence · Applies immediately",
+    "Discord Rich Presence · Шууд хэрэгжинэ"
+  ],
+  "Discord 데스크톱 앱에 런처 사용·게임 버전·로더·경과 시간을 표시합니다. 닉네임, 인스턴스 이름, 월드와 서버 주소는 표시하지 않습니다.": [
+    "Shows launcher use, game version, loader and elapsed time in Discord. Player names, instance names, worlds and server addresses are excluded.",
+    "Discord дээр лаунчер ашиглалт, тоглоомын хувилбар, мод ачаалагч, өнгөрсөн хугацааг харуулна. Тоглогч, орчин, ертөнцийн нэр болон серверийн хаягийг харуулахгүй."
+  ],
+  "업데이트 서버 URL": ["Update server URL", "Шинэчлэлтийн серверийн URL"],
+  "Ed25519 공개키 (PEM)": ["Ed25519 public key (PEM)", "Ed25519 нийтийн түлхүүр (PEM)"],
+  "업데이트 채널": ["Update channel", "Шинэчлэлтийн суваг"],
+  "런처 자동 업데이트 · 시작 시/5분마다 다운로드, 종료 시 설치 창 열기": [
+    "Automatic updates · Download on startup / every 5 minutes; open installer on exit",
+    "Автомат шинэчлэлт · Асаахад болон 5 минут тутам татаж, хаахад суулгагчийг нээнэ"
+  ],
+  "플랫폼 비밀키": ["Platform credentials", "Платформын нууц түлхүүр"],
+  "Windows 계정에 연결된 암호화 저장소에 보관합니다. 저장된 값은 화면으로 다시 보내지 않습니다.": [
+    "Encrypted using your Windows account. Saved values are never sent back to the screen.",
+    "Windows бүртгэлтэй холбоотой шифрлэгдсэн санд хадгална. Хадгалсан утгыг дэлгэцэд буцааж илгээхгүй."
+  ],
+  "플랫폼": ["Platform", "Платформ"],
+  "비밀키": ["Secret key", "Нууц түлхүүр"],
+  "· 저장됨": ["· Saved", "· Хадгалсан"],
+  "· 설정 안 됨": ["· Not configured", "· Тохируулаагүй"],
+  "암호화 저장": ["Save encrypted", "Шифрлэн хадгалах"],
+  "저장된 키 삭제": ["Delete saved key", "Хадгалсан түлхүүрийг устгах"],
+  "로그인 코드가 만료되었습니다.": [
+    "The login code has expired.",
+    "Нэвтрэх кодын хугацаа дууссан."
+  ],
+  "Microsoft 계정 연결 완료": ["Microsoft account connected", "Microsoft бүртгэл холбогдлоо"],
+  "Microsoft 계정으로 연결하세요.": [
+    "Connect your Microsoft account.",
+    "Microsoft бүртгэлээ холбоно уу."
+  ],
+  "Minecraft Java Edition의 실제 이용 권한과 프로필을 확인합니다.": [
+    "Verifies your Minecraft Java Edition entitlement and profile.",
+    "Minecraft Java Edition ашиглах эрх болон профайлыг шалгана."
+  ],
+  "비밀번호는 브라우저의 Microsoft 공식 페이지에서만 입력하세요.": [
+    "Enter your password only on Microsoft's official browser page.",
+    "Нууц үгээ зөвхөн Microsoft-ийн албан ёсны хуудсанд оруулна уу."
+  ],
+  "＋ 다른 Microsoft 계정 연결": [
+    "＋ Connect another Microsoft account",
+    "＋ Өөр Microsoft бүртгэл холбох"
+  ],
+  "＋ Microsoft 로그인": ["＋ Sign in with Microsoft", "＋ Microsoft-оор нэвтрэх"],
+  "스킨 새로고침": ["Refresh skin", "Скин шинэчлэх"],
+  "Dkkf Launcher의 Microsoft 로그인으로 연결합니다. 브라우저 인증과 Minecraft 이용 권한 확인이 완료된 뒤 계정이 추가됩니다.": [
+    "Sign in through Dkkf Launcher's Microsoft app. Your account is added after browser authentication and Minecraft ownership verification.",
+    "Dkkf Launcher-ийн Microsoft нэвтрэлтээр холбогдоно. Хөтчийн баталгаажуулалт болон Minecraft ашиглах эрхийн шалгалтын дараа бүртгэл нэмэгдэнэ."
+  ],
+  "브라우저에서 로그인 완료": [
+    "Complete sign-in in your browser",
+    "Хөтөч дээр нэвтрэлтийг дуусгана уу"
+  ],
+  "아래 코드를 Microsoft 공식 페이지에 입력하세요.": [
+    "Enter this code on Microsoft's official page.",
+    "Энэ кодыг Microsoft-ийн албан ёсны хуудсанд оруулна уу."
+  ],
+  "Microsoft 인증 페이지 열기 ↗": [
+    "Open Microsoft verification page ↗",
+    "Microsoft баталгаажуулах хуудас нээх ↗"
+  ],
+  "인증 완료를 기다리고 있습니다. 성공 응답 및 게임 소유권 확인 전까지 계정을 추가하지 않습니다.": [
+    "Waiting for verification. Your account is added only after successful sign-in and game ownership checks.",
+    "Баталгаажуулалтыг хүлээж байна. Нэвтрэлт болон тоглоом эзэмших эрх батлагдсаны дараа бүртгэл нэмэгдэнэ."
+  ],
+  "연결된 계정": ["Connected accounts", "Холбогдсон бүртгэлүүд"],
+  "사용 중": ["Active", "Ашиглаж байна"],
+  "로그아웃": ["Sign out", "Гарах"],
+  "연결된 계정이 없습니다.": ["No connected accounts.", "Холбогдсон бүртгэл алга."],
+  "서버 버전 일치": ["Matches server version", "Серверийн хувилбартай таарч байна"],
+  "설치됨 · 비활성": ["Installed · Disabled", "Суулгасан · Идэвхгүй"],
+  "지원 대기": ["Not supported yet", "Хараахан дэмжигдээгүй"],
+  "DKKF 서버 전용 구성": ["DKKF server profile", "DKKF серверийн тохиргоо"],
+  "모드팩을 설치하면 서버 모드까지 자동 준비.": [
+    "Install a modpack; server mods are prepared automatically.",
+    "Мод багц суулгахад серверийн мод автоматаар бэлэн болно."
+  ],
+  "서버 구성 복구 / 재시도": [
+    "Repair / retry server profile",
+    "Серверийн тохиргоог засах / дахин оролдох"
+  ],
+  "TaCZ Reforged · Fabric API · mod 3. Fabric 26.3 모드팩 설치와 게임 실행 전에 별도 확인 없이 서버 고정 버전을 준비합니다. 기존 필수 모드 변경 시 백업하며 DKKF HUD는 제외합니다.": [
+    "TaCZ Reforged, Fabric API and mod 3 install automatically using pinned versions before modpack installation or launch. Existing mods are backed up before replacement. DKKF HUD is excluded.",
+    "TaCZ Reforged, Fabric API, mod 3-ыг мод багц суулгах болон асаахаас өмнө тогтоосон хувилбараар автоматаар бэлдэнэ. Солихын өмнө нөөц хуулбар үүсгэнэ. DKKF HUD суулгахгүй."
+  ],
+  "서버 전용 구성은 Minecraft 26.3 Fabric 인스턴스에서 사용할 수 있습니다.": [
+    "The server profile requires a Minecraft 26.3 Fabric instance.",
+    "Серверийн тохиргоонд Minecraft 26.3 Fabric орчин шаардлагатай."
+  ],
+  "새 인스턴스와 가져온 모드팩은 설치 시, 기존 인스턴스는 실행 전에 서버 구성을 준비합니다. 준비 상태는 이곳에 표시됩니다.": [
+    "New instances and imported modpacks are prepared during installation. Existing instances are prepared before launch. Their status appears here.",
+    "Шинэ орчин, импортолсон мод багцыг суулгах үед бэлдэнэ. Одоо байгаа орчныг асаахаас өмнө бэлдэнэ. Төлөв нь энд харагдана."
+  ],
+  "폴더 가져오기": ["Import folder", "Хавтас импортлох"],
+  "＋ ZIP 가져오기": ["＋ Import ZIP", "＋ ZIP импортлох"],
+  "Java Edition 월드 ZIP 또는 폴더를 가져오세요. 기존 월드를 덮어쓰지 않으며, 플레이는 게임의 싱글플레이 화면에서 시작합니다. 월드의 게임 버전은 직접 확인하세요.": [
+    "Import a Java Edition world ZIP or folder without overwriting existing worlds. Open it from singleplayer in-game. Check its game version yourself.",
+    "Одоо байгаа ертөнцийг дарж бичихгүйгээр Java Edition ертөнцийн ZIP эсвэл хавтас импортлоно. Тоглоомын ганцаар тоглох цэснээс нээнэ. Хувилбарыг өөрөө шалгана уу."
+  ],
+  "쉐이더팩을 선택하면 Iris 설정에 적용됩니다. 활성화에는 설치된 Iris가 필요하며, 쉐이더팩은 한 번에 하나만 사용할 수 있습니다.": [
+    "Selecting a shader pack applies it to Iris settings. Iris must be installed. Only one shader pack can be active.",
+    "Шейдерийн багцыг сонговол Iris тохиргоонд хэрэгжинэ. Iris суусан байх ёстой. Нэг удаад нэг шейдерийн багц идэвхтэй байна."
+  ],
+  "활성화한 리소스팩은 다음 게임 실행에 적용됩니다. 로컬 ZIP의 게임 버전과 필요한 모드는 제작자 안내를 확인하세요.": [
+    "Enabled resource packs apply on the next launch. Check local ZIP compatibility and required mods with the author.",
+    "Идэвхтэй нөөцийн багц дараагийн асаалтаар хэрэгжинэ. ZIP-ийн тохирох хувилбар болон шаардлагатай модыг зохиогчийн заавраас шалгана уу."
+  ],
+  "콘텐츠를 읽고 있습니다…": ["Reading content…", "Агуулгыг уншиж байна…"],
+  "버전 / 출처": ["Version / Source", "Хувилбар / Эх сурвалж"],
+  "로컬 파일": ["Local file", "Дотоод файл"],
+  "직접 가져옴": ["Imported locally", "Гараар импортолсон"],
+  "✓ 활성화됨": ["✓ Enabled", "✓ Идэвхтэй"],
+  "파일을 콘텐츠 보관함으로 이동합니다": [
+    "Moves the file to the content archive",
+    "Файлыг агуулгын архивт шилжүүлнэ"
+  ],
+  "제거": ["Remove", "Хасах"],
+  "아직": ["No", "Одоогоор"],
+  "이 없습니다.": ["available yet.", "алга."],
+  "월드 ZIP이나 폴더를 가져와 모험을 이어가세요.": [
+    "Import a world ZIP or folder to continue your adventure.",
+    "Адал явдлаа үргэлжлүүлэхийн тулд ертөнцийн ZIP эсвэл хавтас импортлоно уу."
+  ],
+  "콘텐츠 추가에서 찾아보거나 직접 ZIP 파일을 가져오세요.": [
+    "Browse Add content or import a ZIP file.",
+    "Агуулга нэмэх хэсгээс хайх эсвэл ZIP файл импортлоно уу."
+  ],
+  "수동 업데이트": ["Manual updates", "Гараар шинэчлэх"],
+  "이 버전 설치": ["Install this version", "Энэ хувилбарыг суулгах"],
+  "연결된 프로젝트의 새 호환 버전이 없습니다.": [
+    "No newer compatible version is available for linked projects.",
+    "Холбогдсон төслүүдийн шинэ тохирох хувилбар алга."
+  ],
+  "스킨 얼굴을 불러올 수 없음": ["Skin face could not be loaded", "Скиний царайг ачаалж чадсангүй"],
+  "연결된 Minecraft 계정": ["Connected Minecraft account", "Холбогдсон Minecraft бүртгэл"],
+  "반가워요, {0}.": ["Welcome, {0}.", "Тавтай морил, {0}."],
+  "반가워요.": ["Welcome.", "Тавтай морил."],
+  "{0} 관리": ["Manage {0}", "{0} удирдах"],
+  "최근 플레이한 인스턴스": ["Last played instance", "Сүүлд тоглосон орчин"],
+  "이 인스턴스로 DKKF 서버에 접속하세요.": [
+    "Connect to the DKKF server with this instance.",
+    "Энэ орчноор DKKF серверт холбогдоорой."
+  ],
+  "첫 인스턴스를 만들고 DKKF 서버를 시작하세요.": [
+    "Create your first instance to join DKKF.",
+    "DKKF серверт орохын тулд анхны орчноо үүсгээрэй."
+  ],
+  "TaCZ Reforged · Fabric API · mod 3 · Xaero’s Minimap · Dkkf Loot를 자동 준비합니다. DKKF HUD·Locator Bar는 제외하며 dkkf.mc-hosting.xyz로 접속합니다.": [
+    "TaCZ Reforged, Fabric API, mod 3, Xaero's Minimap and Dkkf Loot are prepared automatically. HUD and Locator Bar are excluded. Connects to dkkf.mc-hosting.xyz.",
+    "TaCZ Reforged, Fabric API, mod 3, Xaero's Minimap, Dkkf Loot автоматаар бэлэн болно. HUD болон Locator Bar суулгахгүй. dkkf.mc-hosting.xyz руу холбогдоно."
+  ],
+  "서버 필수 모드와 Dkkf Loot·Xaero 미니맵을 자동 준비합니다. DKKF HUD는 제외합니다.": [
+    "Required server mods, Dkkf Loot and Xaero's Minimap are prepared automatically. DKKF HUD is excluded.",
+    "Серверийн шаардлагатай мод, Dkkf Loot болон Xaero мини газрын зургийг автоматаар бэлдэнэ. DKKF HUD суулгахгүй."
+  ],
+  "TaCZ Reforged · Fabric API · mod 3 · Xaero’s Minimap · Dkkf Loot를 자동 준비합니다. DKKF HUD는 제외합니다.": [
+    "TaCZ Reforged, Fabric API, mod 3, Xaero's Minimap and Dkkf Loot are prepared automatically. DKKF HUD is excluded.",
+    "TaCZ Reforged, Fabric API, mod 3, Xaero's Minimap, Dkkf Loot автоматаар бэлэн болно. DKKF HUD суулгахгүй."
+  ],
+  "개 표시": ["items shown", "ширхэг харагдаж байна"],
+  "Mod Hub에서 검색하거나 로컬 JAR를 가져오세요.": [
+    "Browse Add content or import a local JAR.",
+    "Агуулга нэмэх хэсгээс хайх эсвэл JAR импортлоно уу."
+  ],
+  "언어 / Language / Хэл": ["Language / Хэл", "Хэл / Language"],
+  "한국어": ["한국어", "한국어"],
+  "런처 자동 업데이트 · 시작 시/5분마다 다운로드, 종료할 때 적용": [
+    "Automatic updates · Download on startup / every 5 minutes; install on exit",
+    "Автомат шинэчлэлт · Асаахад болон 5 минут тутам татаж, хаахад суулгана"
+  ],
+  "{0}님으로 연결되었습니다.": ["Connected as {0}.", "{0} бүртгэлээр холбогдлоо."],
+  "{0} 스킨 얼굴": ["{0}'s skin face", "{0} скиний царай"],
+  "새 인스턴스는 생성 후, 기존 인스턴스는 첫 실행 전에 기본 구성을 준비합니다. 준비 상태는 이곳에 표시됩니다.": [
+    "New instances are prepared during installation, and existing ones before launch. Status appears here.",
+    "Шинэ орчныг суулгах үед, хуучин орчныг асаахаас өмнө бэлдэнэ. Төлөв энд харагдана."
+  ],
+  "INSTALLED": ["INSTALLED", "СУУЛГАСАН"],
+  "NEW": ["NEW", "ШИНЭ"],
+  "PARTIAL": ["PARTIAL", "ХЭСЭГЧИЛСЭН"],
+  "필수 의존성 {0}개 설치 완료": [
+    "Installed {0} required dependencies",
+    "Шаардлагатай {0} хамаарлыг суулгалаа"
+  ],
+  "Java {0} 발견. 설정 저장을 눌러 적용하세요.": [
+    "Found Java {0}. Save settings to apply.",
+    "Java {0} олдлоо. Хэрэгжүүлэхийн тулд тохиргоог хадгална уу."
+  ],
+  "인스턴스 생성 및 게임 자동 설치": [
+    "Creating instance and installing game",
+    "Орчин үүсгэж, тоглоом суулгаж байна"
+  ],
+  "기본 모드 및 필수 의존성 설치": [
+    "Installing required mods and dependencies",
+    "Шаардлагатай мод болон хамаарлыг суулгаж байна"
+  ],
+  "{0} 서버 필수 버전 준비": [
+    "Preparing pinned server version: {0}",
+    "Серверийн тогтоосон хувилбарыг бэлдэж байна: {0}"
+  ],
+  "DKKF 서버 필수 모드 준비 완료 · HUD 제외": [
+    "Required DKKF mods ready · HUD excluded",
+    "DKKF-ийн шаардлагатай мод бэлэн · HUD суулгахгүй"
+  ],
+  "{0} · 서버 고정 버전": ["{0} · Pinned server version", "{0} · Серверийн тогтоосон хувилбар"],
+  "설치된 모드의 필수 의존성 확인": [
+    "Checking installed mod dependencies",
+    "Суулгасан модын хамаарлыг шалгаж байна"
+  ],
+  "{0} 필수 의존성 준비": ["Preparing dependencies: {0}", "Хамаарлыг бэлдэж байна: {0}"],
+  "먼저 게임을 설치하세요.": ["Install the game first.", "Эхлээд тоглоомыг суулгана уу."],
+  "DKKF 서버 자동 접속은 Minecraft 26.3 Fabric 인스턴스에서 지원합니다.": [
+    "DKKF auto-connect requires Minecraft 26.3 Fabric.",
+    "DKKF рүү автоматаар холбогдоход Minecraft 26.3 Fabric хэрэгтэй."
+  ],
+  "필수 의존성을 준비하지 못했습니다. 설치된 모드에서 의존성 복구를 눌러 확인하세요. {0}": [
+    "Could not prepare required dependencies. Use dependency repair in installed mods. {0}",
+    "Шаардлагатай хамаарлыг бэлдэж чадсангүй. Суулгасан модын хамаарлыг засах товчийг ашиглана уу. {0}"
+  ],
+  "{0} 무결성 검사 실패": [
+    "Integrity check failed: {0}",
+    "Бүрэн бүтэн байдлын шалгалт амжилтгүй: {0}"
+  ],
+  "다운로드 중…": ["Downloading…", "Татаж байна…"],
+  "설치 중…": ["Installing…", "Суулгаж байна…"],
+  "{0} 인스턴스와 저장된 월드를 삭제할까요?": [
+    "Delete instance {0} and its saved worlds?",
+    "{0} орчин болон хадгалсан ертөнцүүдийг устгах уу?"
+  ],
+  "JAR 모드는 게임과 동일한 권한으로 실행됩니다. 신뢰할 수 있는 제작자의 파일만 가져오세요.": [
+    "JAR mods run with the same permissions as the game. Only import files from trusted authors.",
+    "JAR мод нь тоглоомтой ижил эрхээр ажиллана. Зөвхөн итгэлтэй зохиогчийн файлыг импортлоно уу."
+  ],
+  "가져오기": ["Import", "Импортлох"],
+  "{0} 월드를 인스턴스에서 제거하고 보관함으로 옮길까요?": [
+    "Remove world {0} from this instance and move it to the archive?",
+    "{0} ертөнцийг энэ орчноос хасаж архив руу шилжүүлэх үү?"
+  ],
+  "보관함으로 이동": ["Move to archive", "Архив руу шилжүүлэх"],
+  "진행 중인 작업을 취소하고 게임을 종료한 다음 런처를 닫으세요.": [
+    "Cancel active tasks and exit the game before closing the launcher.",
+    "Лаунчерийг хаахаас өмнө одоо явагдаж буй ажлыг цуцалж, тоглоомоос гарна уу."
+  ],
+  "확인": ["OK", "Зөвшөөрөх"]
+}

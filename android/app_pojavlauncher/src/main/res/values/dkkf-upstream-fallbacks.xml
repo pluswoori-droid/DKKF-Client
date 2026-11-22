@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="login_error_invalid_username">Invalid username</string>
+<string name="login_microsoft">Sign in with Microsoft</string>
+<string name="mg_renderer_multidraw">Multidraw emulation</string>
+<string name="mg_renderer_title_multidrawCompute">Compute multidraw emulation</string>
+<string name="mg_renderer_summary_multidrawCompute">Use compute shaders to emulate multidraw</string>
+</resources>

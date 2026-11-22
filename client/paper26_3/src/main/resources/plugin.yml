@@ -1,0 +1,17 @@
+name: DkkfBridge
+version: '0.1.0'
+main: kr.dkkf.paper.DkkfBridge
+api-version: '26.3'
+description: DKKF server-authorized feature bridge for Paper 26.3
+authors: [DKKF]
+commands:
+  dkkfbridge:
+    description: Show DKKF bridge status or reload configuration
+    usage: /dkkfbridge [reload]
+permissions:
+  dkkfbridge.use:
+    default: op
+  dkkfbridge.admin:
+    default: op
+  dkkfbridge.feature.*:
+    default: op

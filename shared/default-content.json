@@ -1,0 +1,26 @@
+[
+  { "project": "wdLuzzEP", "name": "Gamma Utils", "kind": "mod", "modId": "gammautils" },
+  { "project": "EsAfCjCV", "name": "AppleSkin", "kind": "mod", "modId": "appleskin" },
+  {
+    "project": "BVzZfTc1",
+    "name": "Entity Texture Features (ETF)",
+    "kind": "mod",
+    "modId": "entity_texture_features"
+  },
+  {
+    "project": "4I1XuqiY",
+    "name": "Entity Model Features (EMF)",
+    "kind": "mod",
+    "modId": "entity_model_features"
+  },
+  {
+    "project": "qyVF9oeo",
+    "name": "Sound Physics Remastered",
+    "kind": "mod",
+    "modId": "sound_physics_remastered"
+  },
+  { "project": "YL57xq9U", "name": "Iris Shaders", "kind": "mod", "modId": "iris" },
+  { "project": "uCdwusMi", "name": "Distant Horizons", "kind": "mod", "modId": "distanthorizons" },
+  { "project": "EpQFjzrQ", "name": "Solas Shader", "kind": "shader" },
+  { "project": "slufHzC2", "name": "Fresh Moves", "kind": "resourcepack" }
+]

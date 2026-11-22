@@ -1,0 +1,26 @@
+# Players need dkkfbridge.use AND dkkfbridge.feature.<id> (or wildcard).
+# OPs may use all enabled features by default. Grant other players permissions explicitly.
+enabled: true
+features:
+  flight: true
+  speed: true
+  high_jump: true
+  step: true
+  reach: true
+  fast_break: true
+  no_fall: true
+  anti_knockback: true
+  water_speed: true
+  low_gravity: true
+  night_vision: true
+  water_breathing: true
+  no_fire: true
+  no_hunger: true
+  regeneration: true
+  auto_sprint: true
+  auto_attack: true
+  trigger_bot: true
+combat:
+  # Damage is processed through Paper's ordinary player attack API and cooldown.
+  # Enabling player targets also requires world PvP and dkkfbridge.combat.players.
+  target-players: false

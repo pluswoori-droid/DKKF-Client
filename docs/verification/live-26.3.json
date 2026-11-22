@@ -1,0 +1,30 @@
+[
+  {
+    "name": "26.3 official metadata and stable Fabric compatibility",
+    "status": "TESTED",
+    "detail": {
+      "game": "26.3",
+      "loader": "0.20.1"
+    }
+  },
+  {
+    "name": "26.3 Fabric API real download and verification",
+    "status": "TESTED",
+    "detail": [
+      {
+        "id": "fabric-api",
+        "version": "0.166.2+26.3",
+        "sha256": "e8acacc7836f39237c83c2a664b039647ee36f93822797acc40cda44666002ea"
+      }
+    ]
+  },
+  {
+    "name": "26.3 full official game and Fabric installation",
+    "status": "TESTED",
+    "detail": {
+      "profile": "fabric-loader-0.20.1-26.3",
+      "mainClass": "net.fabricmc.loader.impl.launch.knot.KnotClient",
+      "java": 25
+    }
+  }
+]

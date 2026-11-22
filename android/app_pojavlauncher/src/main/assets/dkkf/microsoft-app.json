@@ -1,0 +1,10 @@
+{
+  "displayName": "DKKF Client",
+  "clientId": "",
+  "approval": {
+    "status": "owner-reported-approved",
+    "reportedOn": "2026-11-17",
+    "endToEndLoginTested": false
+  },
+  "overwolfApproval": "pending"
+}

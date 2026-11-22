@@ -1,0 +1,24 @@
+{
+  "status": "TESTED",
+  "results": [
+    "Packaged Electron launch and preload IPC",
+    "Navigation: Instances",
+    "Navigation: Mod Hub",
+    "Navigation: My Mods",
+    "Navigation: Modpacks",
+    "Navigation: Upload Center",
+    "Navigation: Update Center",
+    "Navigation: Settings",
+    "Navigation: Account",
+    "Navigation: Home",
+    "No fabricated accounts; login requires configuration",
+    "Java 25+ discovery returned Java 26",
+    "Unknown IPC method rejected",
+    "Create instance through actual Mojang API and UI",
+    "Mod Hub real API results rendered",
+    "Windows safeStorage encrypt/decrypt roundtrip without plaintext storage",
+    "Bundled HUD hash validation and actual Fabric API dependency download via UI",
+    "No renderer page errors"
+  ],
+  "errors": []
+}

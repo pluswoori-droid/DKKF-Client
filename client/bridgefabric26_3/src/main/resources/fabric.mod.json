@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "dkkf_bridge",
+  "version": "0.1.0",
+  "name": "Dkkf Server Bridge",
+  "description": "F10 server-authorized features. Requires the matching DKKF Paper plugin.",
+  "authors": ["DKKF"],
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {"client": ["kr.dkkf.bridge.fabric.BridgeClient"]},
+  "depends": {"fabricloader": ">=0.20.1", "minecraft": "26.3", "java": ">=25", "fabric-api": ">=0.166.2"}
+}

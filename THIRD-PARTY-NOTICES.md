@@ -1,86 +1,17 @@
-# Third-Party Notices
+> **0.3.0 current release:** [변경·검증·로그인 설정](docs/RELEASE-0.3.0.md) · [공개 다운로드](https://dkkf-launcher.gitbal-cream.chatgpt.site). Earlier feature/test descriptions below may describe prior builds; see the release notes for current navigation and verification.
 
-**Project:** DKKF Client — Neon Edition  
-**Version reviewed:** 0.2.0 development build  
-**Status:** Preliminary notice; dependency-level license audit required before distribution.
+# Third-party components
 
-DKKF Client is an independent Minecraft Java Edition launcher with an Electron/React desktop interface and an optional Fabric-based in-game HUD. This notice identifies third-party technologies and external services described in the project's public documentation. It is **not** a complete inventory of packages distributed in the installer or HUD JAR.
+DKKF는 Mojang/Microsoft와 제휴하거나 보증받은 제품이 아닙니다. Minecraft Java Edition과 Microsoft 계정의 정상 이용 권한이 필요합니다. Minecraft 게임 파일은 공식 서버에서 각 사용자의 인스턴스로 내려받으며 배포 설치 프로그램에 포함하지 않습니다.
 
-## 1. Project ownership and independence
+런처는 Electron, Chromium/Node.js, React, Vite, TypeScript, sql.js/SQLite, adm-zip, ws, Zod 및 빌드 도구를 사용합니다. 각 패키지 원본 LICENSE/NOTICE와 Electron 배포 LICENSE/Chromium license 자료를 유지해야 합니다. `pnpm-lock.yaml`은 사용한 전이 의존성을 기록합니다. 공개 배포 전 전체 라이선스 목록/SBOM과 취약점 검토를 완료하세요.
 
-DKKF Client's original source code and artwork are described by its maintainers as **All Rights Reserved** (package metadata: `UNLICENSED`). This does not override any third-party licenses.
+Fabric HUD는 Fabric Loader/API와 Minecraft API에 의존하며 Fabric API는 별도 공식 다운로드로 설치합니다. Fabric Loader/API·Forge·NeoForge·Quilt 및 Modrinth/CurseForge의 상표·서비스·배포 조건은 각 권리자에게 속합니다.
 
-**NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT.**
+모드팩 내보내기는 플랫폼 파일 ID 또는 공식 다운로드 URL/해시를 기록하고 외부 JAR를 포함하지 않습니다. 라이선스가 불명인 로컬 모드는 공유 내보내기를 거부합니다. 개인 모드 백업 ZIP을 공개 재배포하지 마세요.
 
-Minecraft and related marks are the property of their respective owners.
+DKKF 자체 소스·로고는 프로젝트 소유자가 라이선스를 정하기 전까지 All Rights Reserved입니다. 이 문서는 개별 의존성 라이선스를 대체하지 않습니다.
 
-## 2. Third-party frameworks and components
+## 0.6.0 server profile
 
-The public project documentation identifies the following technologies. Their inclusion here does not establish which exact package versions, transitive dependencies, or license texts are bundled in any particular distribution.
-
-| Component | Role | License / attribution follow-up |
-| --- | --- | --- |
-| Electron | Desktop application runtime | Electron is distributed under the MIT license; preserve the applicable copyright and license text for the exact distributed version and its bundled components. |
-| React | Launcher user interface | React is distributed under the MIT license; preserve the applicable copyright and license text for the exact distributed version. |
-| Fabric Loader | Minecraft mod loader | Verify the exact distributed version and preserve its applicable license and notices. |
-| Fabric API | Minecraft modding APIs | Verify the licenses and notices of the specific modules and versions distributed or downloaded. |
-| SQLite and its Node bindings | Local application data | Audit the actual SQLite binding package and its bundled native dependencies separately; do not assume they all share SQLite's public-domain status. |
-| Minecraft game files and assets | Official game installation | Obtained from official services; not relicensed by DKKF Client. Distribution must follow applicable Minecraft terms. |
-| Other npm, Java, and native dependencies | Launcher, HUD, and build/runtime support | Inventory exact shipped dependencies and include required notices and license texts. |
-
-## 3. External APIs and services
-
-The services below are accessed over the network. Calling an API does not, by itself, mean the service's source code is bundled or licensed to DKKF Client.
-
-### Microsoft / Xbox / Minecraft Services
-
-DKKF Client describes a Microsoft sign-in flow followed by Xbox and Minecraft Services authentication and Java Edition entitlement/profile checks. Microsoft, Xbox, Minecraft, and related names are trademarks of their respective owners. DKKF Client is not sponsored or endorsed by Microsoft or Mojang.
-
-- Microsoft identity platform: https://learn.microsoft.com/en-us/entra/identity-platform/
-- Minecraft: https://www.minecraft.net/
-
-Use is subject to applicable service agreements, developer requirements, and permissions. The project's public README states that service approval and real-account end-to-end authentication testing remain pending.
-
-### Modrinth API
-
-DKKF Client uses Modrinth for mod and modpack discovery, metadata, and compatible downloads.
-
-- Website: https://modrinth.com/
-- API documentation: https://docs.modrinth.com/api/
-- Terms: https://modrinth.com/legal/terms
-
-Individual projects and downloadable files may have their own licenses. DKKF Client does not acquire redistribution rights merely by retrieving content through the API. DKKF Client is not endorsed by Modrinth.
-
-### CurseForge API
-
-DKKF Client describes CurseForge integration for mod and modpack information and downloads, subject to API access and applicable restrictions.
-
-- Website: https://www.curseforge.com/
-- API terms: https://support.curseforge.com/support/solutions/articles/9000207405-curseforge-3rd-party-api-terms-and-conditions
-
-Use requires compliance with the applicable API terms and access requirements. Content rights remain with the respective creators and rights holders. DKKF Client is not endorsed by CurseForge or Overwolf.
-
-## 4. User-installed mods and modpacks
-
-Mods, modpacks, resource packs, and other user-selected content may be licensed independently. Their licenses and attribution requirements are not replaced by this document. DKKF Client must not imply that content is freely redistributable merely because it is available through a third-party catalog.
-
-## 5. Required distribution audit
-
-Before publishing an installer, source archive, or bundled HUD JAR:
-
-1. Extract the exact runtime dependency list from the release's `pnpm-lock.yaml`, package manifests, Gradle dependencies, and bundled native artifacts.
-2. Record component name, exact version, author/copyright holder, license identifier, source URL, and whether its code is actually redistributed.
-3. Include the full license text and copyright/NOTICE files whenever required, including notices for transitive dependencies and embedded runtimes.
-4. Review any copyleft, source-offer, modification, or redistribution obligations separately.
-5. Verify the Microsoft, Modrinth, and CurseForge integration against current provider policies and permissions.
-6. Recheck this document for every release; do not mark it complete until the release artifacts have been audited.
-
-## 6. Corrections and contact
-
-If a required notice is missing or inaccurate, contact the project maintainer at **pluswoori@gmail.com** with the affected component and relevant license information.
-
-**Repository:** https://github.com/pluswoori-droid/DKKF-Client
-
----
-
-*This preliminary document is informational and is not a substitute for the complete license and copyright notices required by the software actually distributed.*
+Fabric API 0.166.2+26.3 and TaCZ Reforged 1.1.8+mc26.3 are downloaded from their official distribution CDNs on installation; they are not bundled in the public launcher installer. TaCZ file metadata declares GPL-3.0-only for code and CC BY-NC-ND 4.0 for assets; the CurseForge page labels LGPLv3. The launcher does not change these files or claim ownership. The supplied mod 3 Fabric JAR (trollvideo 1.0.0) is bundled at the owner’s request.

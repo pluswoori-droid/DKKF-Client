@@ -1,0 +1,35 @@
+✔ Home account identity is absent when disconnected and displays supplied verified-profile fields (6.5543ms)
+✔ local update REST service rejects unauthorized posts and broadcasts signed WebSocket notices (373.4789ms)
+✔ New 26.3 Fabric instances receive the supplied Locator JAR without upgrading a pinned Fabric API (100.9655ms)
+✔ RAM and resolution overrides are optional and automatic mode omits forced arguments (2.2891ms)
+✔ Upload center permission matches only the designated Minecraft UUID (0.1305ms)
+✔ Unsupported Fabric game versions never reach the invalid loader endpoint; supported 26.3 still resolves (2.2582ms)
+✔ Installation rejects incompatible loader combinations before touching the instance directory (1.1478ms)
+✔ Loader compatibility refreshes from metadata after expiry and does not report beta as stable (0.2809ms)
+✔ Microsoft client ID migration fills legacy blanks, preserves custom IDs and does not create authenticated accounts (70.7485ms)
+✔ Microsoft AADSTS70002 points to the public-client setting without exposing response secrets (0.7ms)
+✔ Device-code request keeps its form/authority and surfaces actual Microsoft error codes (18.999ms)
+✔ Polling permits only expected waiting errors; refresh and malformed responses fail (1.6423ms)
+✔ paths reject traversal, absolute paths, NTFS streams and reserved devices (0.8556ms)
+✔ HTTPS and exact host boundary enforcement (0.1562ms)
+✔ hash rejects corrupt bytes and unsupported algorithms (0.3422ms)
+✔ Ed25519 signature rejects changed payload, forged signature and other key types (2.9586ms)
+✔ zip rejects case insensitive collisions and expansion limits (2.2616ms)
+✔ Mojang rules use ordered allow/disallow and feature predicates (0.1608ms)
+✔ Maven paths and inherited profiles preserve child library precedence (0.5614ms)
+✔ log redaction conceals bearer, access and refresh tokens (0.274ms)
+✔ Skin URLs are restricted to official texture hashes and upgraded to HTTPS (0.6223ms)
+✔ Face extraction crops the exact head pixels and composites the hat alpha (7.994ms)
+✔ Legacy opaque hat backgrounds are not painted over the skin face (2.2839ms)
+✔ SQLite survives restart; mod import, disable, duplicate/dependency checks, backup/restore and deletion (82.254ms)
+✔ MRPACK import validates manifest; export refuses unlicensed local JAR distribution (44.9334ms)
+✔ 26.3 Fabric target has the official Java 25 minimum (0.5652ms)
+✔ signed update protocol accepts newer versions, rejects tampering/channel mismatch/downgrades; failed checks preserve installation (43.1119ms)
+ℹ tests 27
+ℹ suites 0
+ℹ pass 27
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 628.5723

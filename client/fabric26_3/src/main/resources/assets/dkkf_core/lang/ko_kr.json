@@ -1,0 +1,14 @@
+{
+  "key.category.dkkf_core.hud": "DKKF 클라이언트",
+  "key.dkkf.editor": "HUD 편집기 열기",
+  "key.dkkf.profile": "HUD 프로필 전환",
+  "key.dkkf.toggle": "HUD 전체 표시 / 숨기기",
+  "hud.dkkf.toggle": "항목 켜기 / 끄기",
+  "hud.dkkf.color": "색상",
+  "hud.dkkf.opacity": "투명도",
+  "hud.dkkf.compact": "간소화",
+  "hud.dkkf.save": "저장 후 닫기",
+  "hud.dkkf.help": "DKKF HUD · 드래그: 이동 · 휠: 크기 · F7: 숨기기",
+  "hud.dkkf.visible": "게임에서 HUD 표시 중",
+  "hud.dkkf.hidden": "게임에서 HUD 숨김"
+}

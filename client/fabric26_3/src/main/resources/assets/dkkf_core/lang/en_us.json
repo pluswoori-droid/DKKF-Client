@@ -1,0 +1,14 @@
+{
+  "key.category.dkkf_core.hud": "DKKF Client",
+  "key.dkkf.editor": "Open HUD editor",
+  "key.dkkf.profile": "Cycle HUD profile",
+  "key.dkkf.toggle": "Show / hide HUD",
+  "hud.dkkf.toggle": "Toggle widget",
+  "hud.dkkf.color": "Color",
+  "hud.dkkf.opacity": "Opacity",
+  "hud.dkkf.compact": "Compact",
+  "hud.dkkf.save": "Save & close",
+  "hud.dkkf.help": "DKKF HUD · drag: move · scroll: resize · F7: hide",
+  "hud.dkkf.visible": "HUD visible in game",
+  "hud.dkkf.hidden": "HUD hidden in game"
+}

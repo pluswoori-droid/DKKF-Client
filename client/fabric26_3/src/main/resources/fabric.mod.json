@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "dkkf_core",
+  "version": "${version}",
+  "name": "Dkkf Launcher HUD",
+  "description": "Compact Dkkf Launcher HUD for Minecraft 26.3 Fabric. F7 hide, F8 editor, F9 profile.",
+  "authors": [
+    "DKKF"
+  ],
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "kr.dkkf.fabric.DkkfClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "26.3",
+    "java": ">=25",
+    "fabric-api": ">=0.166.2"
+  },
+  "icon": "assets/dkkf_core/icon.png"
+}

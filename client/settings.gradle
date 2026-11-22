@@ -1,0 +1,4 @@
+pluginManagement { repositories { maven { url 'https://maven.fabricmc.net/' }; gradlePluginPortal(); mavenCentral() } }
+rootProject.name = 'dkkf-client-core'
+include 'common', 'fabric26_3'
+include 'bridgecommon', 'bridgefabric26_3', 'paper26_3'

@@ -1,0 +1,13 @@
+{
+  "version": "0.1.0",
+  "minecraft": "26.3",
+  "protocol": 1,
+  "client": {
+    "file": "dkkf-bridge-fabric-26.3-0.1.0.jar",
+    "sha256": "43f41d9e195dc47485d442891a9600712f269ab5a70ae3ad5f1512dffe67a766"
+  },
+  "server": {
+    "file": "dkkf-bridge-paper-26.3-0.1.0.jar",
+    "sha256": "4defc3d050af4abb341b8c46abe29e49bdc5ba48707bf221dec0ffa93f369bb2"
+  }
+}

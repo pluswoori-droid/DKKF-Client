@@ -1,0 +1,15 @@
+import fs from 'node:fs/promises';
+import {createHash} from 'node:crypto';
+const version='0.1.0';
+const clientFile=`dkkf-bridge-fabric-26.3-${version}.jar`;
+const serverFile=`dkkf-bridge-paper-26.3-${version}.jar`;
+const client=await fs.readFile('client/bridgefabric26_3/build/libs/'+clientFile);
+const server=await fs.readFile('client/paper26_3/build/libs/'+serverFile);
+const hash=bytes=>createHash('sha256').update(bytes).digest('hex');
+await fs.mkdir('assets/bundled-mods',{recursive:true});await fs.mkdir('assets/server-plugin',{recursive:true});
+await fs.writeFile('assets/bundled-mods/'+clientFile,client);await fs.writeFile('assets/server-plugin/'+serverFile,server);
+const manifest=JSON.parse(await fs.readFile('shared/bundled-mods.json','utf8')).filter(m=>m.id!=='dkkf_bridge');
+manifest.push({id:'dkkf_bridge',name:'Dkkf Server Bridge',file:clientFile,version,minecraft:'26.3',loader:'fabric',sha256:hash(client),requiresFabricApi:true});
+await fs.writeFile('shared/bundled-mods.json',JSON.stringify(manifest,null,2)+'\n');
+await fs.writeFile('shared/server-bridge.json',JSON.stringify({version,minecraft:'26.3',protocol:1,client:{file:clientFile,sha256:hash(client)},server:{file:serverFile,sha256:hash(server)}},null,2)+'\n');
+console.log('Bundled verified Fabric bridge and Paper plugin artifacts.');
