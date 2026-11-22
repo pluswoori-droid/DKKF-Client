@@ -1,6 +1,5 @@
 const windowsFilenamePattern=/^(?:Dkkf-Launcher-\d+\.\d+\.\d+-Setup\.exe|SHA256SUMS\.txt)$/;
-const androidFilenamePattern=/^Dkkf-Launcher-Android-\d+\.\d+\.\d+(?:-preview)?-(?:arm64\.apk|Source\.zip|SHA256SUMS\.txt)$/;
-const filenamePattern={test:(name:string)=>windowsFilenamePattern.test(name)||androidFilenamePattern.test(name)};
+const filenamePattern=windowsFilenamePattern;
 const contentType=(name:string)=>name.endsWith('.txt')?'text/plain; charset=utf-8':name.endsWith('.apk')?'application/vnd.android.package-archive':name.endsWith('.zip')?'application/zip':'application/octet-stream';
 const reply=(data:unknown,status=200)=>Response.json(data,{status,headers:{'Cache-Control':'no-store','X-Content-Type-Options':'nosniff'}});
 async function authorized(request:Request,secret?:string){
@@ -10,6 +9,8 @@ async function authorized(request:Request,secret?:string){
 }
 export async function releaseRequest(request:Request,env:Cloudflare.Env):Promise<Response|null>{
  const url=new URL(request.url);
+ // Android distribution is withdrawn; old direct URLs must not remain usable.
+ if(url.pathname==='/api/android-release'||url.pathname==='/api/admin/publish-android'||url.pathname.startsWith('/downloads/Dkkf-Launcher-Android-'))return reply({error:'Not found'},404);
  if(!url.pathname.startsWith('/api/admin/')&&!url.pathname.startsWith('/downloads/')&&!['/api/release','/api/android-release','/stable.json','/beta.json'].includes(url.pathname))return null;
  const bucket=env.BUCKET;if(!bucket)return reply({error:'Release storage is not configured'},503);
  try{
