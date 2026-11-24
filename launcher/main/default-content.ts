@@ -22,15 +22,15 @@ export class DefaultContent {
   report(id: string): PresetReport {
     this.store.instance(id);
     const saved = this.store.get<PresetReport>('defaultContent:' + id, {
-      revision: 610,
+      revision: 630,
       completed: false,
       items: [],
     });
-    return saved.revision === 610 ? saved : { revision: 610, completed: false, items: [] };
+    return saved.revision === 630 ? saved : { revision: 630, completed: false, items: [] };
   }
   async ensure(id: string, signal: AbortSignal, _retry = false) {
     const instance = this.store.instance(id);
-    const report: PresetReport = { revision: 610, completed: false, items: [] };
+    const report: PresetReport = { revision: 630, completed: false, items: [] };
     if (instance.version !== profile.minecraft || instance.loader !== profile.loader) {
       report.items.push({
         project: 'dkkf-server',

@@ -834,7 +834,7 @@ function CreateInstance({ close }: { close: () => void }) {
             </label>
             <p className="hint">
               {t(
-                'TaCZ Reforged · Fabric API · mod 3 · Xaero’s Minimap · Dkkf Loot를 자동 준비합니다. DKKF HUD·Locator Bar는 제외하며 dkkf.mc-hosting.xyz로 접속합니다.',
+                'Fabric API · Xaero’s Minimap · Dkkf Loot를 자동 준비합니다. DKKF HUD·Locator Bar는 제외하며 dkkf.mc-hosting.xyz로 접속합니다.',
               )}
             </p>
             <div className="formgrid">

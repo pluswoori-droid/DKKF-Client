@@ -1,4 +1,4 @@
-# Dkkf Launcher Android 0.1.1-preview
+# Dkkf Launcher Android 0.1.2-preview
 
 Fixes the missing DkkfLoginActivity manifest declaration that caused ActivityNotFoundException when opening Microsoft login. Reported on Galaxy Z Fold 4. The release uses the same application ID and signing certificate so it can update 0.1.0-preview without uninstalling.
 
@@ -8,11 +8,13 @@ Upstream: https://github.com/AngelAuraMC/Amethyst-Android
 Base revision: `166af615dbdca1a507b8c2d379822cca02795132`
 License: LGPLv3; see `LICENSE` and `COPYING-GPL3.txt`. Original copyright notices and upstream credits are retained. The modified Android source is supplied with this preview. It does not contain Windows launcher sources or the private APK signing key.
 
+TaCZ and mod 3 are no longer automatically installed, repaired or enabled. Existing copies in user instances are preserved.
+
 ## Implemented in this preview
 
 - Separate application ID `kr.dkkf.launcher.android`, ARM64 only, minimum Android 8/API 26, compile SDK 36, upstream target SDK 34.
 - DKKF icon and server profile. Java 25 ARM64 is downloaded from the official Amethyst runtime release and checked against a pinned SHA-256 before installation.
-- Fabric 26.3 / Loader 0.20.1 preparation and the same five pinned client mods as Windows 0.6.1: Fabric API, TaCZ Reforged, mod 3, Xaero's Minimap and Dkkf Loot Xaero Client. XaeroLib is included in the minimap JAR.
+- Fabric 26.3 / Loader 0.20.1 preparation and the same three pinned client mods as Windows 0.6.3: Fabric API, Xaero's Minimap and Dkkf Loot Xaero Client. XaeroLib is included in the minimap JAR.
 - Setup runs before each requested game launch. Existing incompatible required mods and DKKF HUD are moved into a profile backup. Locator Bar is not installed by default.
 - Official Microsoft device-code sign-in in the external browser. The app does not collect passwords. It requires Java Edition entitlement and a real Minecraft profile. Local/demo login is not offered for DKKF launch.
 - Refresh/access tokens are saved in AES-GCM account files using Android Keystore. Original authentication-body/token logging is removed. Android app backup is disabled.

@@ -103,8 +103,8 @@ android {
         applicationId "kr.dkkf.launcher.android"
         minSdkVersion 26
         targetSdkVersion 34
-        versionCode 10002
-        versionName "0.1.1-preview"
+        versionCode 10003
+        versionName "0.1.2-preview"
         ndk { abiFilters 'arm64-v8a' }
         multiDexEnabled true //important
         resValue 'string', 'curseforge_api_key', getCFApiKey()

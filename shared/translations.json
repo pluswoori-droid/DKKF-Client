@@ -151,9 +151,9 @@
     "Include snapshots and older versions",
     "Туршилтын болон хуучин хувилбаруудыг харуулах"
   ],
-  "DKKF 서버용 Fabric 26.3 구성: TaCZ Reforged · Fabric API · mod 3를 별도 확인 없이 자동 설치합니다. DKKF HUD·Locator Bar는 기본 설치하지 않으며 실행하면 dkkf.mc-hosting.xyz로 접속합니다.": [
-    "DKKF Fabric 26.3: TaCZ Reforged, Fabric API and mod 3 install automatically. HUD and Locator Bar are excluded. Launching connects to dkkf.mc-hosting.xyz.",
-    "DKKF Fabric 26.3: TaCZ Reforged, Fabric API, mod 3 автоматаар сууна. HUD болон Locator Bar суулгахгүй. Асаахад dkkf.mc-hosting.xyz руу холбогдоно."
+  "DKKF 서버용 Fabric 26.3 구성: Fabric API · Xaero’s Minimap · Dkkf Loot를 별도 확인 없이 자동 설치합니다. DKKF HUD·Locator Bar는 기본 설치하지 않으며 실행하면 dkkf.mc-hosting.xyz로 접속합니다.": [
+    "DKKF Fabric 26.3: Fabric API, Xaero’s Minimap and Dkkf Loot install automatically. HUD and Locator Bar are excluded. Launching connects to dkkf.mc-hosting.xyz.",
+    "DKKF Fabric 26.3: Fabric API, Xaero’s Minimap, Dkkf Loot автоматаар сууна. HUD болон Locator Bar суулгахгүй. Асаахад dkkf.mc-hosting.xyz руу холбогдоно."
   ],
   "Minecraft 버전": ["Minecraft version", "Minecraft хувилбар"],
   "모드 로더": ["Mod loader", "Мод ачаалагч"],
@@ -184,9 +184,9 @@
   "인스턴스 설정": ["Instance settings", "Орчны тохиргоо"],
   "설치 완료": ["Installation complete", "Суулгалт дууссан"],
   "설치 준비 필요": ["Installation required", "Суулгах шаардлагатай"],
-  "서버 필수 모드는 자동 준비됩니다. TaCZ Reforged · Fabric API · mod 3의 고정 버전을 사용하며 DKKF HUD는 제외합니다.": [
-    "Required server mods are prepared automatically. TaCZ Reforged, Fabric API and mod 3 use pinned versions. DKKF HUD is excluded.",
-    "Серверийн шаардлагатай модыг автоматаар бэлдэнэ. TaCZ Reforged, Fabric API, mod 3 тогтоосон хувилбарыг ашиглана. DKKF HUD суулгахгүй."
+  "서버 필수 모드는 자동 준비됩니다. Fabric API · Xaero’s Minimap · Dkkf Loot의 고정 버전을 사용하며 DKKF HUD는 제외합니다.": [
+    "Required server mods are prepared automatically. Fabric API, Xaero’s Minimap and Dkkf Loot use pinned versions. DKKF HUD is excluded.",
+    "Серверийн шаардлагатай модыг автоматаар бэлдэнэ. Fabric API, Xaero’s Minimap, Dkkf Loot тогтоосон хувилбарыг ашиглана. DKKF HUD суулгахгүй."
   ],
   "설정 저장": ["Save settings", "Тохиргоо хадгалах"],
   "콘텐츠 유형": ["Content type", "Агуулгын төрөл"],
@@ -474,9 +474,9 @@
     "Repair / retry server profile",
     "Серверийн тохиргоог засах / дахин оролдох"
   ],
-  "TaCZ Reforged · Fabric API · mod 3. Fabric 26.3 모드팩 설치와 게임 실행 전에 별도 확인 없이 서버 고정 버전을 준비합니다. 기존 필수 모드 변경 시 백업하며 DKKF HUD는 제외합니다.": [
-    "TaCZ Reforged, Fabric API and mod 3 install automatically using pinned versions before modpack installation or launch. Existing mods are backed up before replacement. DKKF HUD is excluded.",
-    "TaCZ Reforged, Fabric API, mod 3-ыг мод багц суулгах болон асаахаас өмнө тогтоосон хувилбараар автоматаар бэлдэнэ. Солихын өмнө нөөц хуулбар үүсгэнэ. DKKF HUD суулгахгүй."
+  "Fabric API · Xaero’s Minimap · Dkkf Loot. Fabric 26.3 모드팩 설치와 게임 실행 전에 별도 확인 없이 서버 고정 버전을 준비합니다. 기존 필수 모드 변경 시 백업하며 DKKF HUD는 제외합니다.": [
+    "Fabric API, Xaero’s Minimap and Dkkf Loot install automatically using pinned versions before modpack installation or launch. Existing mods are backed up before replacement. DKKF HUD is excluded.",
+    "Fabric API, Xaero’s Minimap, Dkkf Loot-ыг мод багц суулгах болон асаахаас өмнө тогтоосон хувилбараар автоматаар бэлдэнэ. Солихын өмнө нөөц хуулбар үүсгэнэ. DKKF HUD суулгахгүй."
   ],
   "서버 전용 구성은 Minecraft 26.3 Fabric 인스턴스에서 사용할 수 있습니다.": [
     "The server profile requires a Minecraft 26.3 Fabric instance.",
@@ -540,17 +540,17 @@
     "Create your first instance to join DKKF.",
     "DKKF серверт орохын тулд анхны орчноо үүсгээрэй."
   ],
-  "TaCZ Reforged · Fabric API · mod 3 · Xaero’s Minimap · Dkkf Loot를 자동 준비합니다. DKKF HUD·Locator Bar는 제외하며 dkkf.mc-hosting.xyz로 접속합니다.": [
-    "TaCZ Reforged, Fabric API, mod 3, Xaero's Minimap and Dkkf Loot are prepared automatically. HUD and Locator Bar are excluded. Connects to dkkf.mc-hosting.xyz.",
-    "TaCZ Reforged, Fabric API, mod 3, Xaero's Minimap, Dkkf Loot автоматаар бэлэн болно. HUD болон Locator Bar суулгахгүй. dkkf.mc-hosting.xyz руу холбогдоно."
+  "Fabric API · Xaero’s Minimap · Dkkf Loot를 자동 준비합니다. DKKF HUD·Locator Bar는 제외하며 dkkf.mc-hosting.xyz로 접속합니다.": [
+    "Fabric API, Xaero's Minimap and Dkkf Loot are prepared automatically. HUD and Locator Bar are excluded. Connects to dkkf.mc-hosting.xyz.",
+    "Fabric API, Xaero's Minimap, Dkkf Loot автоматаар бэлэн болно. HUD болон Locator Bar суулгахгүй. dkkf.mc-hosting.xyz руу холбогдоно."
   ],
   "서버 필수 모드와 Dkkf Loot·Xaero 미니맵을 자동 준비합니다. DKKF HUD는 제외합니다.": [
     "Required server mods, Dkkf Loot and Xaero's Minimap are prepared automatically. DKKF HUD is excluded.",
     "Серверийн шаардлагатай мод, Dkkf Loot болон Xaero мини газрын зургийг автоматаар бэлдэнэ. DKKF HUD суулгахгүй."
   ],
-  "TaCZ Reforged · Fabric API · mod 3 · Xaero’s Minimap · Dkkf Loot를 자동 준비합니다. DKKF HUD는 제외합니다.": [
-    "TaCZ Reforged, Fabric API, mod 3, Xaero's Minimap and Dkkf Loot are prepared automatically. DKKF HUD is excluded.",
-    "TaCZ Reforged, Fabric API, mod 3, Xaero's Minimap, Dkkf Loot автоматаар бэлэн болно. DKKF HUD суулгахгүй."
+  "Fabric API · Xaero’s Minimap · Dkkf Loot를 자동 준비합니다. DKKF HUD는 제외합니다.": [
+    "Fabric API, Xaero's Minimap and Dkkf Loot are prepared automatically. DKKF HUD is excluded.",
+    "Fabric API, Xaero's Minimap, Dkkf Loot автоматаар бэлэн болно. DKKF HUD суулгахгүй."
   ],
   "개 표시": ["items shown", "ширхэг харагдаж байна"],
   "Mod Hub에서 검색하거나 로컬 JAR를 가져오세요.": [

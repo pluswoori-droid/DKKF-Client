@@ -1,6 +1,6 @@
 {
   "name": "dkkf-client",
-  "version": "0.6.2",
+  "version": "0.6.3",
   "private": true,
   "description": "Dkkf Launcher — DKKF 서버 전용 Fabric 26.3",
   "author": "DKKF",
@@ -46,7 +46,7 @@
     "appId": "kr.dkkf.client",
     "productName": "Dkkf Launcher",
     "directories": {
-      "output": "release/0.6.2"
+      "output": "release/0.6.3"
     },
     "files": [
       "dist/**/*",
@@ -65,7 +65,11 @@
       },
       {
         "from": "assets/server-mods",
-        "to": "server-mods"
+        "to": "server-mods",
+        "filter": [
+          "**/*",
+          "!mod-3-fabric-26.3-1.0.0.jar"
+        ]
       }
     ],
     "win": {

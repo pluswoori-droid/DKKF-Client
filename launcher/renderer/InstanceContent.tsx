@@ -55,7 +55,7 @@ export function PresetOverview({
       </div>
       <p className="muted">
         {t(
-          'TaCZ Reforged · Fabric API · mod 3 · Xaero’s Minimap · Dkkf Loot를 자동 준비합니다. DKKF HUD는 제외합니다.',
+          'Fabric API · Xaero’s Minimap · Dkkf Loot를 자동 준비합니다. DKKF HUD는 제외합니다.',
         )}
       </p>
 
